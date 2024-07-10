@@ -42,14 +42,13 @@ jobs:
           HUGO_ENVIRONMENT: production
           HUGO_ENV: production
         run: |
-          cd claude-engineer/StarWarsUnlimitedRules
           hugo \
             --minify \
-            --baseURL "${{ steps.pages.outputs.base_url }}/StarWarsUnlimitedRules/"
+            --baseURL "${{ steps.pages.outputs.base_url }}/"
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v1
         with:
-          path: ./claude-engineer/StarWarsUnlimitedRules/public
+          path: ./public
 
   deploy:
     environment:
