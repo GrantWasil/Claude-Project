@@ -1,6 +1,8 @@
 # Star Wars Unlimited: Comprehensive Rules
 
-Welcome to the comprehensive rules for Star Wars Unlimited. This document serves as the main index for navigating the various sections of the rules.
+Welcome to the comprehensive rules for Star Wars Unlimited, a strategic card game set in the Star Wars universe. In this game, players build decks around iconic characters and locations, battling for galactic supremacy through tactical gameplay and powerful card combinations.
+
+Version: 2.0 (Last updated: June 21, 2024)
 
 ## Table of Contents
 
@@ -20,3 +22,7 @@ Each section provides detailed information about specific aspects of the game. U
 For quick reference of specific terms, check the [Glossary](glossary.md).
 
 Remember: In case of any discrepancies, card text takes precedence over the Comprehensive Rules.
+
+For official updates, tournament information, and additional resources, visit the [Star Wars Unlimited website](https://www.starwarsunlimited.com).
+
+New players are encouraged to start with the [Game Concepts](game-concepts.md) and [Turn Structure](turn-structure.md) sections to get a solid foundation of the game mechanics.

@@ -44,6 +44,7 @@ J. [Set Aside](#j-set-aside)
 - Cards are facedown and out of play.
 - Cannot be viewed except through abilities.
 - Cards leave the deck when drawn, discarded, or played directly from the deck.
+- If a player would draw from an empty deck, they deal 3 damage to their base for each card they would draw.
 
 ## F. Hand
 - Each player's hand is its own zone.
@@ -58,21 +59,39 @@ J. [Set Aside](#j-set-aside)
 - Contains played [events](card-types.md#2-event), defeated (non-leader) [units](card-types.md#4-unit), defeated [upgrades](card-types.md#5-upgrade), and discarded cards.
 - Cards are placed faceup.
 - Open information that can be viewed by any player at any time.
-- The order of cards in a discard pile does not need to be maintained; a player may rearrange the cards in their discard pile at any time.
+- The order of cards in a discard pile does not need to be maintained.
 
 ## H. In-Play and Out-of-Play
 - In-play zones: base zone, ground arena, space arena, and resource zone.
 - Out-of-play zones: deck, hand, and discard pile.
 - Cards in out-of-play zones can't affect the game unless specified.
+- Abilities that affect out-of-play zones must explicitly state the zone they affect.
 
 ## I. Play Area
 - A player's play area consists of cards they control in in-play zones.
 - Includes: cards in base zone, resource zone, controlled units in arenas, and upgrades on controlled units.
 - Excludes: upgrades on enemy units (even if controlled by the player).
+- There is no limit to the number of cards a player can control in their play area.
 
 ## J. Set Aside
 - Cards that are set aside are out-of-play and not in any zone.
 - [Token](card-types.md#6-token) cards begin the game set aside.
+- Set aside cards can only be interacted with through specific card abilities.
+
+## Game Layout Example
+
+```[Player 1]
+Deck - Hand
+|
+Space Arena - Resource Zone - Ground Arena
+|
+Base Zone
+|
+Ground Arena - Resource Zone - Space Arena
+|
+Hand - Deck
+[Player 2]
+```
 
 ---
 

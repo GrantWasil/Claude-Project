@@ -1,12 +1,16 @@
 # Star Wars Unlimited: Game Concepts
 
 ## Table of Contents
-1. [General Concepts](#1-general-concepts)
-2. [Golden Rules](#2-golden-rules)
-3. [Players and Turn Structure](#3-players-and-turn-structure)
-4. [Card Ownership and Control](#4-card-ownership-and-control)
-5. [Ready and Exhausted](#5-ready-and-exhausted)
-6. [Defeating Cards](#6-defeating-cards)
+- [Star Wars Unlimited: Game Concepts](#star-wars-unlimited-game-concepts)
+  - [Table of Contents](#table-of-contents)
+  - [1. General Concepts](#1-general-concepts)
+  - [2. Golden Rules](#2-golden-rules)
+  - [3. Players and Turn Structure](#3-players-and-turn-structure)
+  - [4. Card Ownership and Control](#4-card-ownership-and-control)
+  - [5. Ready and Exhausted](#5-ready-and-exhausted)
+  - [6. Defeating Cards](#6-defeating-cards)
+  - [7. Aspects and Unique Cards](#7-aspects-and-unique-cards)
+  - [8. Resources and Costs](#8-resources-and-costs)
 
 ## 1. General Concepts
 1.1. Star Wars Unlimited is a two-player card game (unless otherwise specified for [multiplayer rules](multiplayer-rules.md)).
@@ -14,7 +18,7 @@
 1.2. Players need one deck each, an initiative counter, damage counters, and token cards.
 
 1.3. There is no maximum number of cards a deck can have. The minimum number of cards varies by format.
-   - For example, in the Premier format, a deck must contain exactly 1 [leader](card-types.md#leaders), exactly 1 [base](card-types.md#bases), and exactly 50 other cards (consisting of [units](card-types.md#units), [events](card-types.md#events), and [upgrades](card-types.md#upgrades)).
+   - For example, in the Premier format, a deck must contain exactly 1 [leader](card-types.md#3-leader), exactly 1 [base](card-types.md#1-base), and a minimum of 50 other cards (consisting of [units](card-types.md#4-unit), [events](card-types.md#2-event), and [upgrades](card-types.md#5-upgrade)).
 
 1.4. Leaders and bases are part of a deck for deckbuilding but not during gameplay.
 
@@ -59,15 +63,41 @@
 ## 6. Defeating Cards
 6.1. Cards in play can be defeated when they have damage equal to or greater than their HP, or when an ability defeats them directly.
 
-6.2. When a non-leader unit is defeated, it goes to its owner's [discard pile](game-zones.md#discard-pile).
+6.2. When a non-leader unit is defeated, it goes to its owner's [discard pile](game-zones.md#g-discard-pile).
 
-6.3. When a leader unit is defeated, it flips to its Leader side and moves to its owner's [base zone](game-zones.md#base-zone), exhausted.
+6.3. When a leader unit is defeated, it flips to its Leader side and moves to its owner's [base zone](game-zones.md#a-base-zone), exhausted.
 
 6.4. When an upgrade is defeated, it goes to its owner's discard pile.
 
 6.5. When a token is defeated, it is set aside out-of-play.
 
 6.6. When a resource is defeated, it goes to its owner's discard pile faceup.
+
+## 7. Aspects and Unique Cards
+7.1. Aspects
+- There are six aspects: Vigilance, Command, Aggression, Cunning, Villainy, and Heroism.
+- Players incur an aspect penalty when playing cards with aspects not provided by their leader or base.
+- The aspect penalty is 2 additional resources for each missing aspect icon.
+
+7.2. Unique Cards
+- Unique cards are indicated by a ⟡ symbol before their name.
+- A player can only control one copy of each unique card at a time.
+- If a player would control a second copy of a unique card, they must immediately defeat one copy.
+
+7.3. Play vs. Put into Play
+- "Play" means to use a card from hand by paying its cost and following standard play rules.
+- "Put into play" means to move a card into play without paying its cost or triggering "When Played" abilities.
+
+## 8. Resources and Costs
+8.1. Resources are cards placed facedown in a player's [resource zone](game-zones.md#d-resource-zone).
+
+8.2. To play a card or use certain abilities, a player must exhaust a number of ready resources equal to the cost.
+
+8.3. Players can add one card from their hand to their resource zone during the regroup phase.
+
+8.4. Some abilities allow players to put cards into play as resources outside of the regroup phase.
+
+8.5. The printed cost of a card can be modified by various effects, including the aspect penalty.
 
 ---
 

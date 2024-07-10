@@ -12,15 +12,18 @@ G. [Twin Suns Format](#g-twin-suns-format)
 ## A. General Rules
 - Multiplayer games can be played with constructed or limited decks.
 - All standard rules apply unless otherwise specified.
+- Recommended for 3-4 players, but can accommodate more with adjusted rules.
 
 ## B. Setup
 - Players choose whether to mulligan in clockwise order, starting with the active player.
 - Each player has a portion of the [ground and space arenas](game-zones.md#b-ground-arena) in their play area.
+- Determine seating order randomly.
 
 ## C. Gameplay
 - The player with the initiative is the first active player.
 - Play proceeds clockwise.
 - The [action phase](turn-structure.md#2-action-phase) ends when each player has passed consecutively.
+- Combat between non-adjacent players is allowed but may have restrictions based on card text.
 
 ## D. Player Elimination
 - When a player's [base](game-zones.md#a-base-zone) has no remaining HP, they are eliminated.
@@ -32,6 +35,7 @@ G. [Twin Suns Format](#g-twin-suns-format)
 
 ## E. Initiative
 - If an eliminated player controlled the initiative counter, return it to the center.
+- The next player clockwise from the eliminated player gains control of the initiative counter.
 
 ## F. Additional Rules
 - Players may freely discuss the game, but deals are not binding.
@@ -39,14 +43,23 @@ G. [Twin Suns Format](#g-twin-suns-format)
 - Abilities affecting multiple players resolve simultaneously if possible, otherwise in an order chosen by the active player.
 - [Sentinel](keywords.md#h-sentinel) only prevents attacks on its controller's units and base, not attacks between other players.
 - For [Bounty](keywords.md#b-bounty) abilities in multiplayer games, the opponent who defeats/captures a unit with Bounty must be chosen as the opponent who may collect that Bounty.
+- Area-of-effect abilities (e.g., "deal 1 damage to each unit") affect all applicable targets, regardless of controller.
 
 ## G. Twin Suns Format
 - Special multiplayer format with unique rules.
 - Each deck has two [leaders](card-types.md#3-leader) sharing either the Heroism or Villainy aspect.
 - Only one copy of each card allowed in the deck.
-- Uses additional blast and plan counters.
+- Uses additional blast and plan counters:
+  - Blast counter: When taken, deal 1 damage to each opponent's base.
+  - Plan counter: When taken, draw 1 card, then place 1 card from hand on the bottom of your deck.
 - Players take an Available Counter action instead of [Take the Initiative](player-actions.md#d-take-the-initiative).
 - Game ends when one player is eliminated; player with most remaining HP wins.
+- Detailed Twin Suns rules:
+  1. Setup: Place blast and plan counters in the center along with the initiative counter.
+  2. During the action phase, players may take the "Take an Available Counter" action.
+  3. A player can only take one counter per round.
+  4. After taking a counter, a player passes for the rest of the action phase.
+  5. The action phase ends when all counters are taken or all players have passed.
 
 ---
 

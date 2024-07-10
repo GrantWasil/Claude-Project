@@ -21,11 +21,11 @@
 - The player with the [initiative counter](game-concepts.md#3-players-and-turn-structure) is the first active player.
 - After an action and any triggered abilities resolve, the opponent becomes the active player.
 - Players can take one of five actions during their turn:
-  1. [Play a Card](player-actions.md#playing-a-card)
-  2. [Attack With a Unit](player-actions.md#attacking-with-a-unit)
-  3. [Use an Action Ability](player-actions.md#using-an-action-ability)
-  4. [Take the Initiative](player-actions.md#taking-the-initiative)
-  5. [Pass](player-actions.md#passing)
+  1. [Play a Card](player-actions.md#a-play-a-card)
+  2. [Attack With a Unit](player-actions.md#b-attack-with-a-unit)
+  3. [Use an Action Ability](player-actions.md#c-use-an-action-ability)
+  4. [Take the Initiative](player-actions.md#d-take-the-initiative)
+  5. [Pass](player-actions.md#e-pass)
 
 ### 2.3 End of Action Phase
 - The phase ends when both players pass consecutively.
@@ -38,10 +38,10 @@
 - Abilities that trigger at the start of the regroup phase trigger now.
 
 ### 3.2 Draw Cards
-- Each player draws 2 cards from their [deck](game-zones.md#deck).
+- Each player draws 2 cards from their [deck](game-zones.md#e-deck).
 
 ### 3.3 Resource Cards
-- Starting with the active player, each player may choose 1 card from their hand to put into play as a [resource](game-concepts.md#resources), facedown and exhausted.
+- Starting with the active player, each player may choose 1 card from their hand to put into play as a [resource](game-concepts.md#8-resources-and-costs), facedown and exhausted.
 - Players may choose not to resource a card.
 
 ### 3.4 Ready Cards
@@ -53,6 +53,24 @@
 
 ## 4. New Round
 4.1. After the Regroup Phase ends, a new round begins with the start of a new Action Phase.
+
+## Examples
+
+### Action Phase Example:
+1. Player A (with initiative) plays a unit card.
+2. Player B attacks with a unit.
+3. Player A uses an action ability.
+4. Player B passes.
+5. Player A takes the initiative.
+6. Player B passes.
+7. The Action Phase ends.
+
+### Regroup Phase Example:
+1. Both players draw 2 cards.
+2. Player A chooses to put a card from their hand into their resource zone.
+3. Player B declines to add a resource.
+4. Both players ready all their exhausted cards.
+5. The Regroup Phase ends, and a new round begins.
 
 ---
 
