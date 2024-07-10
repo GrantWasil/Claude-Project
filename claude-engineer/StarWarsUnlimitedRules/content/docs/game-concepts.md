@@ -124,6 +124,12 @@ There are six aspects in Star Wars Unlimited:
 - Follows a specific order for resolving abilities and effects.
 - Active player generally has priority to act first.
 
+## Aspect Penalty
+The aspect penalty is a special modifier to a card's cost. When a player attempts to play a card with aspect icons beyond those provided by that player's leader and/or base, the player incurs the aspect penalty, and must pay 2 additional resources for each icon beyond those provided.
+
+## Initiative Counter
+The initiative counter is used to keep track of which player has the initiative in the game. The player who starts a round with the initiative counter is the first active player for that round and takes the first action in that round.
+
 ## Glossary
 
 For a quick reference of common game terms, see the [Glossary](/docs/glossary/).

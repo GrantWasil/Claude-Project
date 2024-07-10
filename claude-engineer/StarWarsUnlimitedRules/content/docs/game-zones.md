@@ -6,7 +6,6 @@ icon: "article"
 date: "2024-07-10T04:55:26-06:00"
 lastmod: "2024-07-10T04:55:26-06:00"
 draft: false
-toc: true
 ---
 
 ## Overview
@@ -87,8 +86,8 @@ The ground and space arenas are shared between players, while the other zones ar
 
 ### Set Aside/No Zone
 
-- Cards set aside are out-of-play and not in any zone
-- [Token](/docs/card-types/#token) cards begin set aside and enter play through abilities
+- When a card is set aside, it is considered to be out-of-play and not located in any zone
+- Token cards begin the game set aside, and are put into play by certain abilities. When a token leaves play, it is set aside again.
 
 For more detailed information on card interactions within and between zones, refer to the [Glossary](/docs/glossary/) and other sections of the comprehensive rules.
 

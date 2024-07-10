@@ -26,6 +26,7 @@ For each type of action, perform each step in order and as completely as possibl
 3. A player may play a card whose ability has no effect, as long as the act of paying the costs for and playing the card changes the game state.
 4. Some action, event, and triggered abilities allow a player to play a card. Unless otherwise specified by the ability, the card must be played from the player's hand, and the player must pay all costs of the card when playing it this way.
 5. [Aspect penalties](game-concepts.md#7-aspects-and-unique-cards) apply when playing cards, unless otherwise specified.
+6. When playing an upgrade, it must be attached to a valid unit in play, unless otherwise specified.
 
 ### Steps of Playing a Card
 
@@ -60,6 +61,8 @@ Alice wants to play "Luke Skywalker" from her hand. She declares her intent, che
 After each step, resolve any abilities triggered during that step before proceeding to the next step in the attack.
 {{< /alert >}}
 
+After the attack is completed, the attacking unit becomes exhausted (unless it has an ability that prevents this).
+
 ### Example
 
 Bob attacks Alice's base with his X-wing (power 3). He declares the attack, then deals 3 damage to Alice's base. After the attack, Bob's X-wing exhausts.
@@ -81,6 +84,8 @@ Bob attacks Alice's base with his X-wing (power 3). He declares the attack, then
 4. Pay cost(s): Pay any required costs (e.g., exhausting the card, discarding cards).
 5. Resolve the ability: Carry out the effect of the ability.
 
+Action abilities are resolved immediately after their cost is paid, before any other actions can be taken or abilities can be activated.
+
 After using the action ability, resolve any abilities that triggered while using the action ability.
 
 ### Example
@@ -92,5 +97,6 @@ Charlie uses the action ability on his "Millennium Falcon" card: "Action [exhaus
 1. Players cannot take actions between the time an ability is activated and the time it resolves, except when responding to a nested action.
 2. Some abilities allow players to take actions at unusual times, such as during an opponent's turn. These exceptions are always explicitly stated on the card.
 3. If an ability allows a player to "take an additional action," they may choose any of the standard actions (Play a Card, Attack With a Unit, Use an Action Ability) or pass.
+4. A player may choose to pass instead of taking an action. If both players pass consecutively, the action phase ends.
 
 For more detailed information on each action and their specific rules, please refer to the [Glossary](glossary.md) and other sections of the comprehensive rules document.

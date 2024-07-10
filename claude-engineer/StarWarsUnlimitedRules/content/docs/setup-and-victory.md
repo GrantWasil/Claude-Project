@@ -28,7 +28,7 @@ Understanding the setup process and victory conditions is crucial for playing St
 
 The premier format is the standard two-player constructed format for Star Wars Unlimited. Two-player starter decks follow these rules:
 
-1. Deck size: Minimum of 52 cards
+1. Deck size: Minimum of 52 cards (there is no maximum deck size)
 2. Card limits:
    - Exactly 1 [leader](card-types.md#4-leader)
    - Exactly 1 [base](card-types.md#2-base)
@@ -50,6 +50,7 @@ The basic steps for setting up a two-player game of Star Wars Unlimited are:
 3. Draw your starting hand of 5 cards.
 4. Decide who goes first (usually by rolling a die or flipping a coin).
 5. The player going second draws an additional card.
+6. Each player may take a mulligan if desired: shuffle their hand back into their deck and draw a new hand with one fewer card.
 
 For a detailed, step-by-step guide to game setup, please refer to the [Turn Structure](turn-structure.md#setup-phase) section.
 
@@ -60,6 +61,8 @@ The primary way to win a game of Star Wars Unlimited is to reduce your opponent'
 1. If a player has no cards in their deck and cannot draw when required to do so, they lose the game.
 2. If a player controls no cards in play (including their base) at the end of any phase, they lose the game.
 3. Some card effects may create alternative win conditions.
+
+If both players would win or lose simultaneously, the game is a draw.
 
 For more details on winning the game and resolving simultaneous win/loss conditions, see the [Player Actions](player-actions.md#winning-and-losing) section.
 

@@ -44,15 +44,16 @@ New to Star Wars Unlimited? Here's a quick guide to get you started:
 1. **Deck Construction**
    - 1 leader
    - 1 base
-   - Minimum 50 other cards (units, events, and upgrades)
+   - Minimum of 50 other cards (units, events, and upgrades)
 
 2. **Setup**
    - Place base and leader in the base zone
    - Shuffle deck
    - Draw 6 cards (option to mulligan)
+   - Resource two cards
 
 3. **Game Structure**
-   - Action phase: Play cards, attack, use abilities
+   - Action phase: Play cards, attack, use abilities, take the initiative, or pass
    - Regroup phase: Draw cards, add resources, ready cards
 
 4. **Winning Condition**

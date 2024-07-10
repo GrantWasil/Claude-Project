@@ -24,7 +24,7 @@ Before the first round begins, players must set up the game:
 1. Place bases into play
 2. Put leaders into play
 3. Determine the first player (usually by rolling a die or flipping a coin)
-4. Shuffle decks and draw opening hands of 5 cards each
+4. Shuffle decks and draw opening hands of 6 cards each
 5. Choose whether to mulligan (redraw your entire hand once)
 6. Resource two cards (place two cards face-down in your resource row)
 
@@ -129,7 +129,7 @@ For more details on victory conditions, see the [Setup and Victory](/docs/setup-
 
 ## 6. Special Rules and Exceptions
 
-- **Initiative Token:** The player with the initiative token can interrupt the normal turn order to take an action at any time. This can be a powerful tool for disrupting your opponent's plans.
+- **Initiative Token:** The player with the initiative token is the first active player in a round and takes the first action. The initiative token can be important for strategic planning.
 - **Nested Actions:** Some card effects allow you to take additional actions outside the normal turn structure. These are resolved fully before returning to the main game flow.
 - **Simultaneous Effects:** If multiple effects would trigger at the same time, the active player resolves their effects first, then the non-active player.
 

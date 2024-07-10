@@ -58,14 +58,10 @@ For more details on keyword interactions, see the [Glossary](glossary.md) and [A
 - Gives the unit a Shield token when played/deployed
 
 ### Bounty
-- Triggers an ability for the opponent when the unit is defeated/captured
-- Multiple Bounty abilities can exist on one unit
+- "Bounty" is a keyword followed by an em dash and ability text whose effect is the same as the triggered ability: "**When Defeated/When Captured:** An opponent may resolve the following ability. That opponent is considered to control this ability."
 
 ### Smuggle [Y]
-- Allows playing a card from the resource zone for cost Y
-- Multiple Smuggle abilities can exist on one card
-- Counts as both entering play and being played
-- Replaced by top card of deck when played
+- "Smuggle" is a keyword whose effect is the same as the constant ability: "You may pay cost Y to play this card from your resource zone, replacing it with the top card of your deck. This ability is active while this card is a resource," where Y is the cost in brackets following "Smuggle."
 
 {{< alert type="warning" >}}
 A player can use Smuggle even with an empty deck, but won't replace the card in their resource zone.

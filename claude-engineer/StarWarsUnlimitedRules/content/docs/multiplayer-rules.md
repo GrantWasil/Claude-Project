@@ -20,6 +20,7 @@ Star Wars Unlimited is not just limited to one-on-one battles. This section cove
 3. Unless specified otherwise, all rules in the Comprehensive Rules apply to multiplayer formats.
 4. The recommended player count for multiplayer games is 3-6 players.
 5. Each player starts with 30 base HP, regardless of the number of players.
+6. The Twin Suns format is a specific multiplayer variant with additional rules. See the [Twin Suns](twin-suns.md) section for details.
 
 ## Player Interaction
 
@@ -54,6 +55,7 @@ In multiplayer games:
 2. Play proceeds clockwise, with each player becoming the active player and taking an action.
 3. This continues until all players pass consecutively, ending the action phase.
 4. After the action phase, proceed to the [end phase](turn-structure.md#3-end-phase) as normal.
+5. In the Twin Suns format, a plan counter is used to determine when a player's participation in a round ends. See the [Twin Suns](twin-suns.md) section for details.
 
 For more information on turn structure, see the [Turn Structure](turn-structure.md) section.
 
@@ -68,6 +70,8 @@ A player is eliminated when their base has no remaining HP. When this happens:
 5. [Lasting effects or delayed effects](abilities-and-effects.md#3-effects) they created remain active for their specified duration.
 6. If they controlled the initiative counter, it returns to the center of the play area.
 7. The game continues with the remaining players.
+
+If multiple players would be eliminated simultaneously, they are eliminated in turn order, starting with the active player.
 
 {{< alert type="warning" >}}
 Eliminated players cannot be brought back into the game. Their base cannot be healed, and they cannot be affected by abilities.

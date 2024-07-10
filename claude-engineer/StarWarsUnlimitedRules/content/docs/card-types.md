@@ -23,7 +23,7 @@ Star Wars Unlimited features several distinct card types, each with its own role
 A card's type is located in the top left corner of the card. There are 6 different types of cards: bases, events, leaders, units, upgrades, and tokens.
 
 {{% alert context="info" %}}
-A "resource" is not a type of card, but a game object that a card becomes when placed in the [resource zone](/docs/game-zones/#resource-zone).
+A "resource" is not a type of card, but a game object that a card becomes when placed in the [resource zone](/docs/game-zones/#resource-zone). Resources cannot be played as cards or have their printed abilities used.
 {{% /alert %}}
 
 ## Base
@@ -48,6 +48,7 @@ A "resource" is not a type of card, but a game object that a card becomes when p
 - Each side has two aspect icons, a name, subtitle, trait(s), and abilities.
 - Each player's deck must have exactly 1 leader, starting in the base zone on its Leader side.
 - Deployed using the **Epic Action** ability on its Leader side.
+- When deployed, the Leader Unit side enters play in the ground arena, ready.
 - When defeated as a Leader Unit, it flips to its Leader side and moves to the owner's base zone, exhausted.
 
 ## Unit
@@ -57,6 +58,7 @@ A "resource" is not a type of card, but a game object that a card becomes when p
 - May have a subtitle, aspect icons, abilities, and a unique icon (⟡).
 - Played by paying its cost and placing it in its designated arena (ground or space).
 - Enters play exhausted and remains until defeated.
+- Can attack and be attacked.
 - Defeated when it has no remaining HP or by an ability.
 
 ## Upgrade
@@ -65,21 +67,25 @@ A "resource" is not a type of card, but a game object that a card becomes when p
 - Has a name, cost, trait(s), power modifier, and HP modifier.
 - May have aspect icons, abilities, and a unique icon (⟡).
 - Played by paying its cost and attaching it to a unit in play.
+- Enters play ready (not exhausted).
 - May have specific attachment restrictions.
 - Can be attached to friendly or enemy units.
 - Defeated when the attached unit leaves play or by an ability.
 
 ## Token
 
-- Has a second type, such as "token upgrade."
-- Set aside at the start of the game.
-- Cannot be shuffled into decks or discarded.
+- A token is a type of card that also has a second type, such as a "token upgrade."
+- Tokens are set aside at the start of the game. They cannot be shuffled into decks, played from hand, resourced, or discarded.
+- Tokens are not considered "played" when they enter play.
+- If a token would move to an out-of-play zone for any reason, set it aside instead. It is still considered to have left play.
 - No limit on tokens available to a player.
 - Examples:
   - Experience token: Gives +1 power and +1 HP to the attached unit.
   - [Shield](/docs/keywords/#shield) token: Prevents the next instance of damage to the attached unit.
 
 ## Card Anatomy
+
+Note that not all cards have all of these elements. The following list covers the possible components across all card types:
 
 1. Name: Top of the card (also bottom for upgrades)
 2. Subtitle: Under the name (if present)
@@ -105,8 +111,8 @@ A "resource" is not a type of card, but a game object that a card becomes when p
 ## Deckbuilding Considerations
 
 - Each deck must contain exactly 1 base and 1 leader.
-- Minimum deck size is typically 50 cards (excluding base and leader).
-- No more than 3 copies of a card with the same name in a deck.
+- Minimum deck size is typically 50 cards (excluding base and leader), but may vary by format.
+- No more than 3 copies of a card with the same name in a deck, unless otherwise specified by a format.
 - Unique cards (⟡) are limited to 1 copy per deck.
 
 {{% alert context="warning" %}}
