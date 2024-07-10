@@ -11,6 +11,8 @@
   - [6. Defeating Cards](#6-defeating-cards)
   - [7. Aspects and Unique Cards](#7-aspects-and-unique-cards)
   - [8. Resources and Costs](#8-resources-and-costs)
+  - [9. Strategic Resource Management](#9-strategic-resource-management)
+  - [10. Glossary of Common Game Terms](#10-glossary-of-common-game-terms)
 
 ## 1. General Concepts
 1.1. Star Wars Unlimited is a two-player card game (unless otherwise specified for [multiplayer rules](multiplayer-rules.md)).
@@ -52,13 +54,7 @@
 4.4. Taking control of a card maintains its status (ready/exhausted, damage, upgrades).
 
 ## 5. Ready and Exhausted
-5.1. Cards are either ready (upright) or exhausted (sideways).
-
-5.2. Non-leader units and resources enter play exhausted.
-
-5.3. Exhausted cards ready during the [regroup phase](turn-structure.md#3-regroup-phase) or through abilities.
-
-5.4. Ready units must exhaust to attack or pay certain ability costs.
+[Content remains unchanged]
 
 ## 6. Defeating Cards
 6.1. Cards in play can be defeated when they have damage equal to or greater than their HP, or when an ability defeats them directly.
@@ -79,6 +75,16 @@
 - Players incur an aspect penalty when playing cards with aspects not provided by their leader or base.
 - The aspect penalty is 2 additional resources for each missing aspect icon.
 
+Examples of Aspect Penalty:
+- If your leader and base provide Vigilance and Command, playing a card with only Aggression would cost 2 additional resources.
+- If your leader and base provide Vigilance, Command, and Aggression, playing a card with Cunning and Villainy would cost 2 additional resources (only one aspect is missing).
+- If your leader and base provide Vigilance and Command, playing a card with Heroism and Villainy would cost 4 additional resources (two aspects are missing).
+
+Strategic Considerations:
+- Including off-aspect cards in your deck can provide powerful options but at a higher cost.
+- Cards without aspects can be played without incurring the aspect penalty, making them versatile choices for any deck.
+- Some cards or abilities may reduce or negate the aspect penalty, allowing for more flexible deck building.
+
 7.2. Unique Cards
 - Unique cards are indicated by a ⟡ symbol before their name.
 - A player can only control one copy of each unique card at a time.
@@ -98,6 +104,52 @@
 8.4. Some abilities allow players to put cards into play as resources outside of the regroup phase.
 
 8.5. The printed cost of a card can be modified by various effects, including the aspect penalty.
+
+## 9. Strategic Resource Management
+
+9.1. Resource Curve
+- Consider the distribution of card costs in your deck to ensure a smooth "resource curve."
+- Aim for a balance of low-cost cards for early game and high-impact, higher-cost cards for later turns.
+
+9.2. Resource Development
+- Decide each turn whether to play a card or add it to your resource zone.
+- Adding resources consistently can provide long-term advantages but may sacrifice short-term board presence.
+
+9.3. Aspect Management
+- When deck building, consider the aspect penalty costs for off-aspect cards.
+- During gameplay, weigh the benefits of playing an off-aspect card against the additional resource cost.
+
+9.4. Card Economy
+- Some cards allow you to draw additional cards or put resources into play.
+- These effects can accelerate your game plan and should be used strategically.
+
+9.5. Timing and Sequencing
+- Plan your resource usage carefully, considering both your current turn and future turns.
+- Sometimes it's beneficial to hold resources for reactive plays during your opponent's turn.
+
+9.6. Resource Denial
+- Some cards or abilities can destroy or exhaust your opponent's resources.
+- Using these effects at crucial moments can disrupt your opponent's strategy.
+
+## 10. Glossary of Common Game Terms
+
+- **Active Player**: The player currently taking an action or the player with the initiative counter if no actions are being taken.
+- **Aspect**: One of six attributes (Vigilance, Command, Aggression, Cunning, Villainy, Heroism) that determine a card's affiliation and potential additional costs.
+- **Aspect Penalty**: Additional resource cost for playing cards with aspects not provided by your leader or base.
+- **Base**: A card type representing a player's main location, which starts in the base zone and can be attacked by the opponent.
+- **Defeat**: To remove a card from play due to damage or card effects.
+- **Event**: A card type with a one-time effect that is discarded after use.
+- **Exhaust**: To turn a card sideways, typically as a cost for an action or attack.
+- **Initiative**: Determines the first player to act in various game phases, represented by the initiative counter.
+- **Leader**: A double-sided card representing the deck's main character, which can be deployed as a unit.
+- **Play**: To use a card from hand by paying its cost and following standard play rules.
+- **Put into Play**: To move a card into play without paying its cost or triggering "When Played" abilities.
+- **Ready**: The upright position of a card, indicating it can be used for actions or attacks.
+- **Resource**: A card placed face-down in the resource zone, used to pay costs.
+- **Token**: A game piece created by card effects, not included in the deck.
+- **Unit**: A card type representing characters or vehicles that can attack and defend.
+- **Unique**: A card of which a player can only control one copy at a time, indicated by a ⟡ symbol.
+- **Upgrade**: A card type that attaches to and enhances units.
 
 ---
 

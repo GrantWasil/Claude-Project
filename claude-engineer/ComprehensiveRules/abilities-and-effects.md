@@ -6,6 +6,8 @@ B. [Effects](#b-effects)
 C. [Resolving Abilities and Effects](#c-resolving-abilities-and-effects)
 D. [Timing and Triggers](#d-timing-and-triggers)
 E. [Nested Abilities and Actions](#e-nested-abilities-and-actions)
+F. [Resolving Multiple Triggered Abilities](#f-resolving-multiple-triggered-abilities)
+G. [Ability and Effect Interactions](#g-ability-and-effect-interactions)
 
 ## A. Types of Abilities
 
@@ -13,30 +15,45 @@ E. [Nested Abilities and Actions](#e-nested-abilities-and-actions)
 - Indicated by the bolded word "Action" or "Epic Action"
 - Usually have a cost in brackets
 - Using an action ability counts as the player's action for the turn (see [Player Actions](player-actions.md))
-- Example: "Action [Exhaust]: Deal 1 damage to a unit."
+- Examples:
+  - "Action [Exhaust]: Deal 1 damage to a unit."
+  - "Action [2 Force]: Draw a card."
+  - "Epic Action [Destroy this unit]: Defeat all units in the ground arena."
 
 ### A.2. Constant Abilities
 - Always in effect while the card is in play
 - Don't have any special styling
 - Remain in effect even if the card is [exhausted](game-concepts.md#5-ready-and-exhausted)
-- Example: "While this unit is undamaged, it has Sentinel."
+- Examples:
+  - "While this unit is undamaged, it has Sentinel."
+  - "Your opponent's units lose all abilities."
+  - "Your base has +5 health."
 
 ### A.3. Event Abilities
 - Found in the text box of [event cards](card-types.md#2-event)
 - Resolved when the event is played
-- Example: "Deal 2 damage to each unit in the ground arena."
+- Examples:
+  - "Deal 2 damage to each unit in the ground arena."
+  - "Ready all your units. You may move each of your units to an adjacent arena."
+  - "Search your deck for a unit with cost 3 or less and put it into your hand. Shuffle your deck."
 
 ### A.4. Keyword Abilities
 - Indicated with bold red text
 - Have specific associated rules
 - Examples: Ambush, Grit, Overwhelm, Raid, Restore, Saboteur, Sentinel, Shielded
 - For detailed explanations, see the [Keywords](keywords.md) section
+- Additional examples:
+  - "Ambush (This unit can attack the turn it enters play.)"
+  - "Overwhelm 2 (This unit deals 2 excess damage to the opposing base when it defeats a unit.)"
+  - "Shielded (Prevent the first instance of damage that would be dealt to this unit each round.)"
 
 ### A.5. Triggered Abilities
 - Have bold text indicating their triggering condition
 - Start with "When" or "On", followed by a colon and an effect
-- Examples: "When Played", "When Defeated", "On Attack"
-- Example: "When Defeated: Draw a card."
+- Examples:
+  - "When Played: Draw a card."
+  - "When Defeated: Deal 1 damage to each enemy unit."
+  - "On Attack: This unit gets +2 power for this attack."
 
 ## B. Effects
 
@@ -44,17 +61,26 @@ E. [Nested Abilities and Actions](#e-nested-abilities-and-actions)
 - Affect the game for a specified duration
 - Often include phrases like "for this phase" or "for this attack"
 - Persist beyond the resolution of the ability that created them
-- Example: "This unit gets +2/+2 for this phase."
+- Examples:
+  - "This unit gets +2/+2 for this phase."
+  - "Until the end of the turn, your opponent cannot play events."
+  - "For the rest of the game, your units have Overwhelm 1."
 
 ### B.2. Delayed Effects
 - Created when an ability indicates a future timing point or condition
 - Resolve automatically after their specified timing point or condition occurs
-- Example: "At the start of your next turn, draw a card."
+- Examples:
+  - "At the start of your next turn, draw a card."
+  - "At the end of this phase, deal 1 damage to each unit."
+  - "The next time you play a unit this turn, reduce its cost by 2."
 
 ### B.3. Replacement Effects
 - Replace part or all of the standard resolution of a triggering condition
 - Indicated by the words "instead" or "would"
-- Example: "If this unit would be defeated, instead heal all damage from it."
+- Examples:
+  - "If this unit would be defeated, instead heal all damage from it."
+  - "If you would draw a card, instead look at the top 2 cards of your deck and put one into your hand and the other on the bottom of your deck."
+  - "The first time each turn that you would gain Force, instead gain that much Force plus 1."
 
 ## C. Resolving Abilities and Effects
 - Resolve abilities in the order they are written
@@ -81,6 +107,80 @@ E. [Nested Abilities and Actions](#e-nested-abilities-and-actions)
   1. Player A plays a card that defeats an enemy unit. 
   2. The defeated unit has a "When Defeated" ability that triggers.
   3. This "When Defeated" ability is resolved before any other abilities that triggered from the initial card play.
+
+## F. Resolving Multiple Triggered Abilities
+
+When multiple triggered abilities occur simultaneously, follow this flowchart to resolve them:
+
+```
+[Start]
+     |
+     v
+Is there more than one triggered ability?
+     |
+   +---+
+   |   |
+  Yes  No
+   |   |
+   |   v
+   | Resolve the single ability
+   |
+   v
+Are all triggers controlled by the same player?
+   |
+ +---+
+ |   |
+Yes  No
+ |   |
+ |   v
+ | Active player chooses which player resolves first
+ |
+ v
+Controlling player chooses order of resolution
+     |
+     v
+Resolve abilities one at a time
+     |
+     v
+Check for new triggers after each resolution
+     |
+     v
+[End]
+```
+
+## G. Ability and Effect Interactions
+
+Understanding how different abilities and effects interact is crucial for mastering Star Wars Unlimited. Here are some key interactions to keep in mind:
+
+1. Constant Abilities vs. Temporary Effects:
+   - Temporary effects (e.g., "until end of turn") override constant abilities for their duration.
+   - Example: If a unit has a constant ability "This unit has Sentinel" and is affected by "This unit loses all abilities until end of turn," it will not have Sentinel for that turn.
+
+2. Layering Effects:
+   - When multiple effects modify a unit's stats, apply them in the order they were created.
+   - Example: If a 2/2 unit gets "+1/+1 until end of turn" and then "+2/+0 for this attack," it becomes a 5/3 unit for that attack.
+
+3. Replacement Effects and Prevention:
+   - If multiple replacement effects would apply to the same event, the affected player chooses the order in which to apply them.
+   - Prevention effects create replacement effects that prevent some or all of a damage event.
+   - Example: If a unit with "Prevent the first 2 damage dealt to this unit each turn" would be dealt 3 damage, it prevents 2 damage and takes 1.
+
+4. Triggered Abilities and State-Based Effects:
+   - State-based effects (like defeating a unit with 0 health) are checked before triggered abilities resolve.
+   - Example: If a 1/1 unit has "When this unit is defeated, deal 1 damage to target unit" and takes 1 damage, it will be defeated before its ability resolves, but the ability will still trigger and resolve.
+
+5. Keyword Interactions:
+   - Some keywords have specific interactions with each other or with certain effects.
+   - Example: A unit with both Ambush and "When Played" abilities can use its Ambush to attack before its "When Played" ability resolves.
+
+6. Timing Conflicts:
+   - When abilities would trigger at the same time but have conflicting results, apply the following priority:
+     1. Prevention effects
+     2. Replacement effects
+     3. Triggered abilities
+   - Example: If one effect says "The next time you would draw a card this turn, don't" and another says "At the start of your turn, draw a card," the prevention effect takes precedence, and you don't draw.
+
+Understanding these interactions will help you make better strategic decisions and resolve complex game states accurately.
 
 ---
 
