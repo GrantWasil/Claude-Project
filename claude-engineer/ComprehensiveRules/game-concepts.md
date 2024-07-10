@@ -18,12 +18,12 @@
   - [13. Glossary of Common Game Terms](#13-glossary-of-common-game-terms)
 
 ## 1. General Concepts
-1.1. Star Wars Unlimited is typically a two-player card game, but can be played with more players using multiplayer rules.
+1.1. Star Wars Unlimited is typically a two-player card game, but can be played with more players using [multiplayer rules](multiplayer-rules.md).
 
 1.2. Players need one deck each, an initiative counter, damage counters, and token cards matching any types created by their decks.
 
 1.3. There is no maximum number of cards a deck can have. The minimum number of cards varies by format.
-   - For example, in the Premier format, a deck must contain exactly 1 leader, exactly 1 base, and a minimum of 50 other cards (consisting of units, events, and upgrades).
+   - For example, in the Premier format, a deck must contain exactly 1 [leader](card-types.md#4-leader), exactly 1 [base](card-types.md#2-base), and a minimum of 50 other cards (consisting of [units](card-types.md#5-unit), [events](card-types.md#3-event), and [upgrades](card-types.md#6-upgrade)).
 
 1.4. Leaders and bases are part of a deck for deckbuilding but are not considered part of a deck during gameplay.
 
@@ -41,11 +41,11 @@
 ## 3. Players and Active Player
 3.1. The active player is the player that is currently taking an action.
 
-3.2. Players take turns being the active player during the action phase.
+3.2. Players take turns being the active player during the [action phase](turn-structure.md#2-action-phase).
 
 3.3. The first active player in a game is the player that started the game with the initiative counter.
 
-3.4. If no player is currently taking an action, such as during the regroup phase, the player with the initiative counter is considered to be the active player.
+3.4. If no player is currently taking an action, such as during the [regroup phase](turn-structure.md#1-regroup-phase), the player with the initiative counter is considered to be the active player.
 
 ## 4. Card Ownership and Control
 4.1. A player is the "owner" of a card that started the game in their deck. This includes the deck's leader, base, and any events, units, and upgrades that started the game in that deck. A player is also the "owner" of any tokens they put into play.
@@ -61,7 +61,7 @@
 
 5.2. Each non-leader unit and resource enters play exhausted. Upgrades are neither ready nor exhausted.
 
-5.3. When a Leader Unit is deployed, it enters the ground arena ready, even if it was exhausted before.
+5.3. When a Leader Unit is deployed, it enters the [ground arena](game-zones.md#3-ground-arena) ready, even if it was exhausted before.
 
 5.4. Exhausted cards ready through certain card abilities, or during the regroup phase each round.
 
@@ -72,7 +72,7 @@
 
 6.2. A base is defeated when it has damage on it equal to or greater its HP. When a base is defeated, its owner loses the game.
 
-6.3. A unit is defeated when it has damage on it equal to or greater than its HP, or when an ability defeats it directly. When a non-leader unit is defeated, it is moved to its owner's discard pile.
+6.3. A unit is defeated when it has damage on it equal to or greater than its HP, or when an ability defeats it directly. When a non-leader unit is defeated, it is moved to its owner's [discard pile](game-zones.md#8-discard-pile).
 
 6.4. When a leader unit is defeated, it is flipped to its Leader side and moved to its owner's base zone, exhausted.
 
@@ -94,7 +94,7 @@
 - If a player would control a second copy of a unique card, they must immediately defeat one copy.
 
 ## 8. Resources and Costs
-8.1. A resource is a game object used to pay the costs of cards and certain abilities. A card becomes a resource when placed into a player's resource zone.
+8.1. A resource is a game object used to pay the costs of cards and certain abilities. A card becomes a resource when placed into a player's [resource zone](game-zones.md#5-resource-zone).
 
 8.2. When paying a card's cost or the cost of an ability that uses a {R} icon, a player must exhaust ready resources they control equal to the number indicated by the cost.
 
@@ -158,3 +158,6 @@
 
 For more information on specific card types, see the [Card Types](card-types.md) section.
 For details on game zones, refer to the [Game Zones](game-zones.md) section.
+For information on abilities and effects, see the [Abilities and Effects](abilities-and-effects.md) section.
+For details on turn structure, refer to the [Turn Structure](turn-structure.md) section.
+For information on player actions, see the [Player Actions](player-actions.md) section.

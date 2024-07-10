@@ -10,7 +10,7 @@
 ## 1. General
 1.1. An ability is specialized game text that indicates how a card affects the game. If a card has any printed abilities, they are found in the text box of that card.
 
-1.2. An upgrade can give an ability to a unit if that upgrade indicates that the attached unit "gains" the ability; treat the unit as having the ability in its text box for as long as the upgrade is attached to it.
+1.2. An [upgrade](card-types.md#upgrades) can give an ability to a [unit](card-types.md#units) if that upgrade indicates that the attached unit "gains" the ability; treat the unit as having the ability in its text box for as long as the upgrade is attached to it.
 
 1.3. Unless otherwise specified, a player controls the abilities on cards they play and control.
 
@@ -23,7 +23,7 @@
 
 2.1.2. Most action abilities have a cost in brackets that must be paid in order to use the ability.
 
-2.1.3. Using an action ability is one type of action a player can take during their turn.
+2.1.3. Using an action ability is one type of [action](player-actions.md) a player can take during their turn.
 
 2.1.4. An Epic Action ability is a type of action ability that can only be used once per game.
 
@@ -37,14 +37,14 @@
 2.2.4. Constant abilities remain in effect even if the card they're on is exhausted.
 
 ### 2.3. Event Abilities
-2.3.1. An event ability is an ability found in the text box of an event and is resolved when the event is played.
+2.3.1. An event ability is an ability found in the text box of an [event](card-types.md#events) and is resolved when the event is played.
 
-2.3.2. When an event is played, it is placed in its owner's discard pile before its ability resolves.
+2.3.2. When an event is played, it is placed in its owner's [discard pile](game-zones.md#discard-pile) before its ability resolves.
 
 2.3.3. An event ability must be resolved as completely as possible. Any part of the event ability that cannot be resolved is ignored.
 
 ### 2.4. Keyword Abilities
-2.4.1. A keyword or keyword ability is a card ability indicated with bold red text and that has specific associated rules.
+2.4.1. A keyword or keyword ability is a card ability indicated with bold red text and that has specific associated rules. For more details, see the [Keywords](keywords.md) section.
 
 2.4.2. A keyword ability resolves automatically unless its definition includes the word "may."
 
@@ -84,7 +84,7 @@
 4.3. If an ability that affects both players can be resolved simultaneously, resolve the ability simultaneously. Otherwise, the player that controls the card with the ability can choose the order in which each player is affected by the ability.
 
 ## 5. Timing and Triggers
-5.1. A triggered ability is considered to resolve during the same turn or game step that it was triggered.
+5.1. A triggered ability is considered to resolve during the same turn or game step that it was triggered. For more information on turn structure, see the [Turn Structure](turn-structure.md) section.
 
 5.2. Resolving a triggered ability is not the same as taking an action. A player can resolve a triggered ability outside of their turn.
 
@@ -98,4 +98,4 @@
 
 5.7. After resolving a triggered ability "A", if any new abilities were triggered while resolving it, the new abilities are considered "nested abilities" and must be resolved before any other abilities triggered at the same time as ability "A".
 
-Note: For more detailed information on specific abilities and their interactions, please refer to the comprehensive rules document.
+Note: For more detailed information on specific abilities and their interactions, please refer to the [Glossary](glossary.md) and other sections of the comprehensive rules document.

@@ -18,7 +18,7 @@
 
 1.2. A keyword ability resolves automatically unless its definition includes the word "may."
 
-1.3. Card abilities may give a keyword to a unit, either as a constant ability or a lasting effect. While the ability or effect persists, the unit is considered to have that keyword in its text box, and that keyword can be lost, ignored, or affected by other abilities.
+1.3. Card abilities may give a keyword to a [unit](card-types.md#5-unit), either as a constant ability or a lasting effect. While the ability or effect persists, the unit is considered to have that keyword in its text box, and that keyword can be lost, ignored, or affected by other abilities.
 
 1.4. If a card is given a keyword it already has, those keywords do not "stack" (meaning, the card does not gain any additional effects) unless those keywords are followed by a numeral, a cost, or an em dash and ability text; if they are, the numbers following each keyword are added together. If they are followed by a cost or an em dash and ability text, each keyword is considered its own ability.
 
@@ -41,7 +41,7 @@
 3.3. When a unit with Grit deals and is dealt damage simultaneously (i.e. during combat), the unit with Grit does not get increased power from the new damage until after all damage is dealt.
 
 ## 4. Overwhelm
-4.1. "Overwhelm" is a keyword whose effect is the same as the constant ability: "While attacking, this unit deals its excess damage to the defending player's base."
+4.1. "Overwhelm" is a keyword whose effect is the same as the constant ability: "While attacking, this unit deals its excess damage to the defending player's [base](card-types.md#2-base)."
 
 4.2. Multiple instances of Overwhelm do not stack.
 
@@ -71,14 +71,14 @@
 ## 8. Sentinel
 8.1. "Sentinel" is a keyword whose effect is the same as the constant ability: "Units in this arena can't attack your non-Sentinel units or your base. Abilities this unit gains can't prevent this unit from being attacked."
 
-8.2. When a player makes an attack, after exhausting the attacker, the player checks if there are any enemy units in the attacker's arena with Sentinel. If there are one or more, the attacking player cannot choose a non-Sentinel unit as the defender (unless the attacker has Saboteur).
+8.2. When a player makes an attack, after exhausting the attacker, the player checks if there are any enemy units in the attacker's [arena](game-zones.md#3-ground-arena) with Sentinel. If there are one or more, the attacking player cannot choose a non-Sentinel unit as the defender (unless the attacker has Saboteur).
 
 8.3. If the attacker has the Saboteur keyword, its controller ignores the Sentinel keyword on enemy units in the attacker's arena, and may choose to attack any unit in the same arena or the opponent's base.
 
 8.4. If a unit has Sentinel and an ability where it "can't be attacked," Sentinel overrides that ability, and that unit can be attacked.
 
 ## 9. Shielded
-9.1. When on a non-leader unit, "Shielded" is a keyword whose effect is the same as the triggered ability: "When Played: Give a Shield token to this unit." When on a leader unit, "Shielded" is a keyword whose effect is the same as to the triggered ability: "When Deployed: Give a Shield token to this unit."
+9.1. When on a non-leader unit, "Shielded" is a keyword whose effect is the same as the triggered ability: "When Played: Give a Shield token to this unit." When on a [leader](card-types.md#4-leader) unit, "Shielded" is a keyword whose effect is the same as to the triggered ability: "When Deployed: Give a Shield token to this unit."
 
 9.2. Shielded resolves in the same window as any "When Played" abilities on the unit.
 
@@ -96,7 +96,7 @@
 10.6. Bounty abilities are always resolved by an opponent. If a player defeats their own unit that has a Bounty ability, they must choose an opponent to resolve its Bounty ability.
 
 ## 11. Smuggle [Y]
-11.1. "Smuggle" is a keyword whose effect is the same as the constant ability: "You may pay cost Y to play this card from your resource zone, replacing it with the top card of your deck. This ability is active while this card is a resource," where Y is the cost in brackets following "Smuggle." Paying this cost follows all normal rules for paying costs, including accounting for any aspect penalties that modify this cost.
+11.1. "Smuggle" is a keyword whose effect is the same as the constant ability: "You may pay cost Y to play this card from your [resource zone](game-zones.md#5-resource-zone), replacing it with the top card of your deck. This ability is active while this card is a resource," where Y is the cost in brackets following "Smuggle." Paying this cost follows all normal rules for paying costs, including accounting for any aspect penalties that modify this cost.
 
 11.2. Each Smuggle ability on a unit is considered an independent ability. A unit can have multiple Smuggle abilities.
 
@@ -106,10 +106,10 @@
 
 11.5. As the card is still in the resource zone while paying costs, a card with Smuggle can be exhausted to help pay its own Smuggle cost.
 
-11.6. A unit or upgrade played using Smuggle is considered both to enter play and to be played. Any "When Played" abilities on the card trigger. If it is a unit, the unit enters play exhausted. If it is an event, it is placed in its owner's discard pile.
+11.6. A unit or [upgrade](card-types.md#6-upgrade) played using Smuggle is considered both to enter play and to be played. Any "When Played" abilities on the card trigger. If it is a unit, the unit enters play exhausted. If it is an [event](card-types.md#3-event), it is placed in its owner's [discard pile](game-zones.md#8-discard-pile).
 
 11.7. As it enters play, a card played using Smuggle is replaced in the resource zone by the top card of a player's deck. The two cards are considered to enter play simultaneously. The new resource enters play exhausted.
 
 11.8. A player may still use Smuggle to play a card even if their deck is empty. In this case, they do not replace the card in their resource zone. They are not considered to have attempted to draw a card from their empty deck, and they do not put damage on their base.
 
-Note: For more detailed information on each keyword and their interactions, please refer to the comprehensive rules document.
+Note: For more detailed information on each keyword and their interactions, please refer to the [Glossary](glossary.md) and [Abilities and Effects](abilities-and-effects.md) sections of the comprehensive rules document.

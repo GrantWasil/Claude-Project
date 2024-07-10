@@ -17,9 +17,9 @@
 
 2.2. Deckbuilding
    A. A premier deck must include:
-      - Exactly 1 leader
-      - Exactly 1 base
-      - A minimum of 50 other cards (consisting of units, events, and upgrades)
+      - Exactly 1 [leader](card-types.md#4-leader)
+      - Exactly 1 [base](card-types.md#2-base)
+      - A minimum of 50 other cards (consisting of [units](card-types.md#5-unit), [events](card-types.md#3-event), and [upgrades](card-types.md#6-upgrade))
    B. A premier deck cannot include more than 3 copies of any unit, event, or upgrade.
 
-Note: For more detailed information on game setup, victory conditions, and other aspects of gameplay, please refer to the relevant sections in the comprehensive rules document.
+Note: For more detailed information on game setup, victory conditions, and other aspects of gameplay, please refer to the [Turn Structure](turn-structure.md), [Player Actions](player-actions.md), and [Game Zones](game-zones.md) sections in the comprehensive rules document.

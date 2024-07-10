@@ -15,38 +15,38 @@
 ## 1. General
 1.1. A card's type is located in the top left corner of the card. There are 6 different types of cards: bases, events, leaders, units, upgrades, and tokens.
 
-1.2. A "resource" is not a type of card, but a game object that a card becomes when placed in the resource zone.
+1.2. A "resource" is not a type of card, but a game object that a card becomes when placed in the [resource zone](game-zones.md#resource-zone).
 
 ## 2. Base
 2.1. A base represents a location in Star Wars.
 
 2.2. Each base has a name, trait(s), HP value, and aspect icon. Some bases also have an ability.
 
-2.3. Each player's deck must have exactly 1 base. Each base begins the game in its owner's base zone.
+2.3. Each player's deck must have exactly 1 base. Each base begins the game in its owner's [base zone](game-zones.md#base-zone).
 
 2.4. Bases can be dealt damage through abilities and enemy attacks. Unless prevented by an ability, any unit can attack an enemy base directly.
 
-2.5. Some abilities heal damage from a base, such as the Restore keyword. A base cannot be healed beyond its HP value.
+2.5. Some abilities heal damage from a base, such as the [Restore](keywords.md#restore) keyword. A base cannot be healed beyond its HP value.
 
-2.6. When a base has no remaining HP, its owner immediately loses the game, and its opponent immediately wins the game.
+2.6. When a base has no remaining HP, its owner immediately loses the game, and its opponent immediately wins the game. For more details, see the [Setup and Victory](setup-and-victory.md) section.
 
 ## 3. Event
 3.1. An event is a type of card with a name, cost, trait(s), and ability. An event may also have aspect icons.
 
-3.2. To play an event, pay its cost and place it in its owner's discard pile. Then, resolve the event's ability.
+3.2. To play an event, pay its cost and place it in its owner's [discard pile](game-zones.md#discard-pile). Then, resolve the event's ability.
 
 3.3. When played, an event moves directly from the player's hand to their discard pile, never entering play.
 
 3.4. An event that affects cards in a player's discard pile can affect itself.
 
-3.5. When resolving an event ability, resolve as much of the ability as possible and ignore anything that cannot resolve.
+3.5. When resolving an event ability, resolve as much of the ability as possible and ignore anything that cannot resolve. For more details on resolving abilities, see the [Abilities and Effects](abilities-and-effects.md) section.
 
 ## 4. Leader
 4.1. A leader is a double-sided card with a horizontal "Leader side" and a vertical "Leader Unit side." Each side of a leader has two aspect icons, a name, subtitle, trait(s), and abilities.
 
 4.2. Each player's deck must have exactly 1 leader. Each leader begins the game in the base zone on its Leader side.
 
-4.3. A leader is deployed using the **Epic Action** ability on its Leader side. When deployed, flip it to its Leader Unit side and move it to the ground arena, ready.
+4.3. A leader is deployed using the **Epic Action** ability on its Leader side. When deployed, flip it to its Leader Unit side and move it to the [ground arena](game-zones.md#arenas), ready.
 
 4.4. When a Leader Unit has no remaining HP, it is defeated: flip it to its Leader side and move it to its owner's base zone, exhausted.
 
@@ -89,7 +89,7 @@
 
 7.5. An Experience token is a type of token upgrade that gives the unit it is attached to +1 power and +1 HP.
 
-7.6. A Shield token is a type of token upgrade that prevents the next instance of damage that would be dealt to the attached unit.
+7.6. A [Shield](keywords.md#shield) token is a type of token upgrade that prevents the next instance of damage that would be dealt to the attached unit.
 
 ## 8. Card Anatomy
 8.1. Name: Located at the top of the card (an upgrade's name is also reprinted on the bottom of the card).
@@ -118,4 +118,4 @@
 
 8.13. Credit Line: Located on the bottom of the card and contains credit and set information for that card.
 
-Note: For more detailed information on each card type and their interactions, please refer to the comprehensive rules document.
+Note: For more detailed information on each card type and their interactions, please refer to the [Glossary](glossary.md) and other sections of the comprehensive rules document.

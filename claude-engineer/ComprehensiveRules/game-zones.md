@@ -23,7 +23,7 @@
 ## 2. Base Zone
 2.1. Each player has their own base zone, which is located in the center of their play area.
 
-2.2. Each player's base and leader start the game in this zone.
+2.2. Each player's [base](card-types.md#2-base) and [leader](card-types.md#4-leader) start the game in this zone.
 
 2.3. Bases always remain in their owner's base zone. Leaders move from their owner's base zone to the ground arena when deployed, and from the ground arena to their owner's base zone when defeated.
 
@@ -32,7 +32,7 @@
 ## 3. Ground Arena
 3.1. The ground arena is a zone shared by players, located next to each player's base zone.
 
-3.2. Each player's ground units are played into this zone, and face their controller when they're ready.
+3.2. Each player's ground [units](card-types.md#5-unit) are played into this zone, and face their controller when they're ready.
 
 3.3. Friendly ground units can attack enemy ground units in the ground arena, as well as the enemy base.
 
@@ -41,7 +41,7 @@
 ## 4. Space Arena
 4.1. The space arena is a zone shared by players, located next to each player's base zone.
 
-4.2. Each player's space units are played into this zone, and face their controller when they're ready.
+4.2. Each player's space [units](card-types.md#5-unit) are played into this zone, and face their controller when they're ready.
 
 4.3. Friendly space units can attack enemy space units in the space arena, as well as the enemy base.
 
@@ -52,7 +52,7 @@
 
 5.2. Resources are placed facedown and remain facedown while in a resource zone. A player may view facedown resources they control at any time, returning them facedown when finished.
 
-5.3. Players can choose to add a card from their hand to their resource zone during each regroup phase.
+5.3. Players can choose to add a card from their hand to their resource zone during each [regroup phase](turn-structure.md#1-regroup-phase).
 
 ## 6. Deck
 6.1. Each player's deck is its own zone. By default, cards in a player's deck are facedown, out of play, and cannot be viewed except through abilities.
@@ -67,7 +67,7 @@
 7.3. The cards in a player's hand may be looked at only by that player, and the faceup sides of those cards are considered hidden information for that player's opponent. The number of cards in a player's hand is considered open information.
 
 ## 8. Discard Pile
-8.1. Each player's discard pile is its own zone. Played events, defeated (non-leader) units, defeated upgrades, and discarded cards are placed in a player's discard pile, faceup.
+8.1. Each player's discard pile is its own zone. Played [events](card-types.md#3-event), defeated (non-leader) units, defeated [upgrades](card-types.md#6-upgrade), and discarded cards are placed in a player's discard pile, faceup.
 
 8.2. Cards in a player's discard pile are considered open information and can be viewed by any player at any time.
 
@@ -78,7 +78,7 @@
 
 9.2. There are three types of "out-of-play" zones: each player's deck, each player's hand, and each player's discard pile.
 
-9.3. For an ability to resolve from an out-of-play zone or to affect a card in an out-of-play zone, the ability must either explicitly state the out-of-play zone it resolves from or affects, or it must be a type of ability that by default resolves from an out-of-play zone.
+9.3. For an ability to resolve from an out-of-play zone or to affect a card in an out-of-play zone, the ability must either explicitly state the out-of-play zone it resolves from or affects, or it must be a type of ability that by default resolves from an out-of-play zone. For more details on abilities, see the [Abilities and Effects](abilities-and-effects.md) section.
 
 ## 10. Play Area
 10.1. A player's "play area" consists of cards that player controls in in-play zones, with the exception of any upgrades that player controls attached to enemy units (which are in the unit's controller's play area).
@@ -88,6 +88,6 @@
 ## 11. Set Aside/Being In No Zone
 11.1. When a card is set aside, it is considered to be out-of-play and not located in any zone.
 
-11.2. Token cards begin the game set aside, and are put into play by certain abilities. When a token leaves play, it is set aside again.
+11.2. [Token](card-types.md#7-token) cards begin the game set aside, and are put into play by certain abilities. When a token leaves play, it is set aside again.
 
-Note: For more detailed information on how cards interact within and between zones, please refer to the comprehensive rules document.
+Note: For more detailed information on how cards interact within and between zones, please refer to the [Glossary](glossary.md) and other sections of the comprehensive rules document.

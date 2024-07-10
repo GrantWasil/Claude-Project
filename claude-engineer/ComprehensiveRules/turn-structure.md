@@ -19,8 +19,8 @@
 
 ## 2. Starting the Game and Setup
 2.1. Players set up the game following these steps in order:
-   A. Put bases into play
-   B. Put leaders into play
+   A. Put [bases](card-types.md#2-base) into play
+   B. Put [leaders](card-types.md#4-leader) into play
    C. Determine the first player
    D. Shuffle decks and draw opening hands
    E. Choose whether to mulligan
@@ -44,7 +44,7 @@
    - Players alternate taking one action at a time.
    - The player that starts the round with the initiative counter is the first active player and takes the first action.
    - After their action and any triggered abilities finish resolving, their opponent becomes the active player and takes an action.
-   - A player may take one of five actions during their turn: Play a Card, Attack With a Unit, Use an Action Ability, Take the Initiative, or Pass.
+   - A player may take one of five actions during their turn: [Play a Card](player-actions.md#2-play-a-card), [Attack With a Unit](player-actions.md#3-attack-with-a-unit), [Use an Action Ability](player-actions.md#4-use-an-action-ability), Take the Initiative, or Pass.
 
 4.4. End of the action phase:
    - Any lasting effects that expire when the action phase ends expire now.
@@ -70,7 +70,7 @@
    - Players may choose not to resource a card.
 
 5.5. Ready cards:
-   - Each player readies all exhausted cards they control, including units, resources, and their leader.
+   - Each player readies all exhausted cards they control, including [units](card-types.md#5-unit), resources, and their leader.
 
 5.6. End of the regroup phase:
    - Any lasting effects that expire when the regroup phase ends or when the round ends expire now.
@@ -89,4 +89,4 @@
 
 6.5. A player can concede the game at any time. If they do, they lose the game immediately.
 
-Note: For more detailed information on specific actions and their timing, please refer to the comprehensive rules document.
+Note: For more detailed information on specific actions and their timing, please refer to the [Player Actions](player-actions.md) section. For information on abilities and effects, see the [Abilities and Effects](abilities-and-effects.md) section. For details on game zones, refer to the [Game Zones](game-zones.md) section.
