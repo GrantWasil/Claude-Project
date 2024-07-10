@@ -23,11 +23,21 @@ MAX_CONTINUATION_ITERATIONS = 25
 MAINMODEL = "claude-3-5-sonnet-20240620"
 TOOLCHECKERMODEL = "claude-3-5-sonnet-20240620"
 
+# Load API keys from environment variables
+ANTHROPIC_API_KEY = os.getenv('ANTHROPIC_API_KEY')
+TAVILY_API_KEY = os.getenv('TAVILY_API_KEY')
+
+# Check if API keys are available
+if not ANTHROPIC_API_KEY:
+    raise ValueError("ANTHROPIC_API_KEY environment variable is not set")
+if not TAVILY_API_KEY:
+    raise ValueError("TAVILY_API_KEY environment variable is not set")
+
 # Initialize the Anthropic client
-client = Anthropic(api_key="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")
+client = Anthropic(api_key=ANTHROPIC_API_KEY)
 
 # Initialize the Tavily client
-tavily = TavilyClient(api_key="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")
+tavily = TavilyClient(api_key=TAVILY_API_KEY)
 
 # Set up the conversation memory
 conversation_history = []
