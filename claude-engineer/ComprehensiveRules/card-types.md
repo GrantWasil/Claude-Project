@@ -3,154 +3,119 @@
 ## Table of Contents
 - [Star Wars Unlimited: Card Types](#star-wars-unlimited-card-types)
   - [Table of Contents](#table-of-contents)
-  - [1. Base](#1-base)
-  - [2. Event](#2-event)
-  - [3. Leader](#3-leader)
-  - [4. Unit](#4-unit)
-  - [5. Upgrade](#5-upgrade)
-  - [6. Token](#6-token)
-  - [7. Card Anatomy](#7-card-anatomy)
-  - [8. Card Interactions](#8-card-interactions)
+  - [1. General](#1-general)
+  - [2. Base](#2-base)
+  - [3. Event](#3-event)
+  - [4. Leader](#4-leader)
+  - [5. Unit](#5-unit)
+  - [6. Upgrade](#6-upgrade)
+  - [7. Token](#7-token)
+  - [8. Card Anatomy](#8-card-anatomy)
 
-## 1. Base
-1.1. Represents a location in Star Wars.
-1.2. Each deck must have exactly 1 base.
-1.3. Starts the game in the owner's [base zone](game-zones.md#base-zone).
-1.4. Can be dealt damage through abilities and enemy attacks.
-1.5. When a base has no remaining HP, its owner loses the game (see [Victory Conditions](setup-and-victory.md#2-victory-conditions)).
+## 1. General
+1.1. A card's type is located in the top left corner of the card. There are 6 different types of cards: bases, events, leaders, units, upgrades, and tokens.
 
-Examples and Strategic Uses:
-- "Death Star": A base with high HP (40) and the ability "Action: Deal 1 damage to each enemy unit." Strategic use: Provides longevity and board control.
-- "Rebel Base on Hoth": A base with moderate HP (30) and the ability "When an enemy unit attacks your base, exhaust it." Strategic use: Discourages direct attacks on your base.
-- "Coruscant Senate": A base with lower HP (25) but the ability "At the start of your turn, gain 1 additional Force." Strategic use: Accelerates your Force generation for faster card deployment.
+1.2. A "resource" is not a type of card, but a game object that a card becomes when placed in the resource zone.
 
-[Insert visual representation of a Base card, highlighting its unique features such as high HP and lack of cost]
+## 2. Base
+2.1. A base represents a location in Star Wars.
 
-## 2. Event
-2.1. Has a name, cost, trait(s), and ability.
-2.2. To play: pay its cost, place it in the [discard pile](game-zones.md#discard-pile), then resolve its ability.
-2.3. Does not enter play; moves directly from hand to discard pile.
-2.4. Can affect itself if it affects cards in the discard pile.
+2.2. Each base has a name, trait(s), HP value, and aspect icon. Some bases also have an ability.
 
-Examples and Strategic Uses:
-- "Force Lightning": Cost 3, "Deal 2 damage to up to 3 different enemy units." Strategic use: Efficient multi-target removal.
-- "Rebel Assault": Cost 4, "Deal 3 damage to an enemy unit. If that unit is defeated, deal 2 damage to the enemy base." Strategic use: Combines unit removal with base damage.
-- "Jedi Mind Trick": Cost 2, "Return target enemy unit with cost 3 or less to its owner's hand." Strategic use: Tempo play to disrupt enemy board presence.
+2.3. Each player's deck must have exactly 1 base. Each base begins the game in its owner's base zone.
 
-[Insert visual representation of an Event card, highlighting its cost and one-time use nature]
+2.4. Bases can be dealt damage through abilities and enemy attacks. Unless prevented by an ability, any unit can attack an enemy base directly.
 
-## 3. Leader
-3.1. Double-sided card with a horizontal "Leader side" and a vertical "Leader Unit side".
-3.2. Each deck must have exactly 1 leader.
-3.3. Starts the game in the base zone on its Leader side (see [Game Setup](setup-and-victory.md#1-game-setup)).
-3.4. Deployed using the Epic Action ability on its Leader side.
-3.5. When deployed, flips to Leader Unit side and moves to the ground arena, [ready](game-concepts.md#5-ready-and-exhausted).
-3.6. When defeated as a Leader Unit, flips back to Leader side and moves to the base zone, exhausted.
+2.5. Some abilities heal damage from a base, such as the Restore keyword. A base cannot be healed beyond its HP value.
 
-Examples and Strategic Uses:
-- "Luke Skywalker":
-  - Leader side: "Epic Action [5 Force]: Deploy Luke Skywalker."
-  - Leader Unit side: 5/5, "When Luke Skywalker attacks, you may ready another friendly unit." 
-  Strategic use: Provides additional actions through his ability.
-- "Darth Vader":
-  - Leader side: "Epic Action [6 Force]: Deploy Darth Vader. When you do, defeat an enemy unit with cost 4 or less."
-  - Leader Unit side: 6/6, "Overwhelm 2"
-  Strategic use: Immediate board impact upon deployment and sustained pressure.
+2.6. When a base has no remaining HP, its owner immediately loses the game, and its opponent immediately wins the game.
 
-[Insert visual representation of a Leader card, showing both sides and the flip mechanic]
+## 3. Event
+3.1. An event is a type of card with a name, cost, trait(s), and ability. An event may also have aspect icons.
 
-## 4. Unit
-4.1. Depicts a Star Wars character or vehicle.
-4.2. Has a name, cost, power, HP, trait(s), and arena type.
-4.3. To play: pay its cost and place in the designated arena (ground or space).
-4.4. Enters play exhausted and remains in play until defeated.
-4.5. Defeated when it has no remaining HP or when an ability defeats it directly (see [Defeating Cards](game-concepts.md#6-defeating-cards)).
+3.2. To play an event, pay its cost and place it in its owner's discard pile. Then, resolve the event's ability.
 
-Examples and Strategic Uses:
-- "X-wing Starfighter": Cost 3, 3/3, Space, Pilot. "When this unit attacks, it gets +1 power for this attack for each other friendly Pilot unit." Strategic use: Synergizes with other Pilot units for increased damage output.
-- "Stormtrooper Squad": Cost 2, 2/2, Ground. "When this unit enters play, you may search your deck for a card named 'Stormtrooper Squad' and put it into your hand." Strategic use: Provides card advantage and consistent board presence.
-- "Millennium Falcon": Cost 5, 4/5, Space, Unique. "Action: Move this unit to an adjacent arena. When you do, you may move another friendly unit to an adjacent arena." Strategic use: Provides flexibility in unit positioning and surprise attacks.
+3.3. When played, an event moves directly from the player's hand to their discard pile, never entering play.
 
-[Insert visual representation of a Unit card, highlighting its cost, power/HP, and arena type]
+3.4. An event that affects cards in a player's discard pile can affect itself.
 
-## 5. Upgrade
-5.1. Attaches to a unit in play.
-5.2. Has a name, cost, trait(s), power modifier, and HP modifier.
-5.3. To play: pay its cost and attach to an eligible unit in play.
-5.4. May specify it must "attach to" a specific type of unit (play restriction).
-5.5. No limit to the number of upgrades that can be attached to a unit.
-5.6. Can be played on friendly or enemy units.
-5.7. If a player plays an upgrade onto an enemy unit, that player still [controls](game-concepts.md#4-card-ownership-and-control) the upgrade. If that upgrade gives abilities to the attached unit, the unit's controller resolves those abilities.
-5.8. Defeated when the attached unit leaves play or when an ability defeats it directly.
-5.9. Some upgrades are also tokens and have the "token upgrade" card type.
-5.10. Token upgrades follow the same rules for upgrades, except that they are put into play differently and are set aside when defeated.
+3.5. When resolving an event ability, resolve as much of the ability as possible and ignore anything that cannot resolve.
 
-Examples and Strategic Uses:
-- "Lightsaber": Cost 2, +2/+1. "Attached unit gains Overwhelm 1." Strategic use: Improves unit's combat effectiveness and provides additional base damage.
-- "Stealth Field Generator": Cost 3, +0/+2. "Attached unit cannot be targeted by enemy events or abilities." Strategic use: Protects key units from removal effects.
-- "Rebel Armor": Cost 1, +0/+2. "When attached unit would be defeated, instead remove all damage from it and defeat this upgrade." Strategic use: Provides additional durability to important units.
+## 4. Leader
+4.1. A leader is a double-sided card with a horizontal "Leader side" and a vertical "Leader Unit side." Each side of a leader has two aspect icons, a name, subtitle, trait(s), and abilities.
 
-[Insert visual representation of an Upgrade card, showing how it attaches to a unit and its modifiers]
+4.2. Each player's deck must have exactly 1 leader. Each leader begins the game in the base zone on its Leader side.
 
-## 6. Token
-6.1. Set aside at the start of the game.
-6.2. Put into play by specific abilities.
-6.3. Cannot be shuffled into decks, discarded, or "played".
-6.4. If it would move to an out-of-play zone, set it aside instead.
-6.5. No limit on tokens available to a player.
+4.3. A leader is deployed using the **Epic Action** ability on its Leader side. When deployed, flip it to its Leader Unit side and move it to the ground arena, ready.
 
-Examples and Strategic Uses:
-- "Shield Token": Token Upgrade, +0/+1. "Prevent the next damage that would be dealt to attached unit this turn." Strategic use: Provides temporary protection to valuable units.
-- "Droid Token": Unit Token, 1/1, Ground. "When this unit is defeated, draw a card." Strategic use: Provides chump blockers that replace themselves when defeated.
-- "Bounty Token": Token Upgrade. "When attached unit is defeated, its controller loses 2 Force." Strategic use: Discourages your opponent from sacrificing the marked unit.
+4.4. When a Leader Unit has no remaining HP, it is defeated: flip it to its Leader side and move it to its owner's base zone, exhausted.
 
-[Insert visual representation of a Token card, emphasizing its unique features like lack of cost]
+4.5. If an ability would cause a Leader Unit to move to an out-of-play zone or change control for any reason, it is defeated instead.
 
-## 7. Card Anatomy
-7.1. Name: Located at the top of the card.
-7.2. Cost: Number in the top-left corner (for non-base cards).
-7.3. Aspects: Colored icons on the left or right side of the card.
-7.4. Type: Indicated in the top-left corner (e.g., "Unit", "Upgrade").
-7.5. Arena Type: For units, indicated in the top-right corner ("Ground" or "Space").
-7.6. Traits: Listed below the card art or name.
-7.7. Text Box: Contains the card's abilities.
-7.8. Power/HP: For units, shown in the bottom-left and bottom-right corners, respectively.
-7.9. Power/HP Modifiers: For upgrades, shown on the left and right sides, respectively.
-7.10. Unique Symbol: A diamond (⟡) before the name for unique cards.
+## 5. Unit
+5.1. A unit is a type of card depicting a Star Wars character or vehicle. Each unit has a name, cost, power, HP, trait(s), and arena type. A unit may also have a subtitle, aspect icons, abilities, and a unique icon (⟡) before its name.
 
-[Insert detailed diagram of a card, labeling all the anatomical features mentioned above]
+5.2. To play a unit, pay its cost and place the unit in its designated arena (ground or space).
 
-## 8. Card Interactions
+5.3. A unit enters play exhausted and remains in play until it is defeated.
 
-Understanding how different card types interact is crucial for mastering Star Wars Unlimited. Here are some key interactions:
+5.4. A unit is defeated when it has no remaining HP or when an ability defeats it directly. When a unit is defeated, place it in its owner's discard pile.
 
-8.1. Units and Upgrades:
-- Multiple upgrades can be attached to a single unit, potentially creating powerful combinations.
-- Upgrades that give abilities to units can create synergies with the unit's existing abilities.
-- Example: A "Blaster Rifle" upgrade (+1/+0, "Attached unit gains 'Action: Deal 1 damage to target unit.'") on a unit with the ability "When this unit deals damage, draw a card" creates a powerful action economy.
+5.5. Leader Units are a type of unit. Leader Units have the same rules as non-leader units, except that they are deployed instead of being played, and they are returned to the base zone instead of being discarded.
 
-8.2. Leaders and Other Cards:
-- Leader abilities often synergize with specific card types or traits.
-- Example: A leader with "Friendly Droid units get +1/+1" encourages building a deck with many Droid units.
+## 6. Upgrade
+6.1. An upgrade is a type of card that attaches to a unit. Each upgrade has a name, cost, trait(s), power modifier, and HP modifier. An upgrade may also have aspect icons, abilities, and a unique icon (⟡) before its name.
 
-8.3. Events and Units:
-- Events can often target units for various effects, such as dealing damage, moving units, or granting temporary bonuses.
-- Some units have abilities that trigger when targeted by events, creating interesting counterplay opportunities.
-- Example: An event "Deal 3 damage to target unit" against a unit with "When this unit would be dealt damage, you may discard a card to prevent 2 of that damage."
+6.2. To play an upgrade, pay the upgrade's cost and attach it to a unit in play.
 
-8.4. Bases and Other Card Types:
-- Some units, upgrades, or events may have abilities that specifically interact with bases.
-- These interactions can be crucial for both offensive and defensive strategies.
-- Example: An upgrade "When attached unit damages the enemy base, gain 1 Force" can create a powerful economic engine.
+6.3. An upgrade may specify that it must "attach to" a specific type of unit. This is considered a play restriction for that upgrade.
 
-8.5. Tokens and Regular Cards:
-- Tokens often interact with regular cards through abilities that create or manipulate tokens.
-- Understanding these interactions can provide additional strategic depth.
-- Example: A unit with "When this unit enters play, create two Shield tokens and attach them to this unit" provides built-in protection.
+6.4. There is no limit to the number of upgrades that can be attached to a unit.
 
-Understanding these interactions allows players to create powerful combos, anticipate opponent's plays, and make more informed decisions during deck building and gameplay.
+6.5. Upgrades may be played on friendly units or enemy units. If a player plays an upgrade onto an enemy unit, that player still controls the upgrade.
 
----
+6.6. Each upgrade has a power modifier and HP modifier. A unit's power and HP are cumulatively modified by each upgrade attached to it.
 
-For more information on game zones, see the [Game Zones](game-zones.md) section.
-For details on game concepts, refer to the [Game Concepts](game-concepts.md) section.
+6.7. An upgrade is defeated when either the unit it is attached to leaves play, or when an ability defeats it directly.
+
+## 7. Token
+7.1. A token is a type of card that also has a second type, such as a "token upgrade."
+
+7.2. Tokens are set aside at the start of the game. They cannot be shuffled into decks, cannot be discarded, and are not considered "played" when they enter play.
+
+7.3. If a token would move to an out-of-play zone for any reason, set it aside instead.
+
+7.4. There is no limit on tokens available to a player. A player may substitute any available object (such as dice) for a token.
+
+7.5. An Experience token is a type of token upgrade that gives the unit it is attached to +1 power and +1 HP.
+
+7.6. A Shield token is a type of token upgrade that prevents the next instance of damage that would be dealt to the attached unit.
+
+## 8. Card Anatomy
+8.1. Name: Located at the top of the card (an upgrade's name is also reprinted on the bottom of the card).
+
+8.2. Subtitle: If a card has a subtitle, it will be located directly under its name.
+
+8.3. Card Type: Located in the top left of the card.
+
+8.4. Arena Type: Located in the top right of the card for units.
+
+8.5. Cost: Located in the top left corner of the card for non-base cards.
+
+8.6. Aspects: If a card belongs to one or more aspects, those aspects are indicated by aspect icons located on one side of the card.
+
+8.7. Power: Located on the left side of unit cards.
+
+8.8. Power Modifier: Located on the left side of upgrade cards.
+
+8.9. HP: Located on the right side of unit cards and in the top left corner of base cards.
+
+8.10. HP Modifier: Located on the right side of upgrade cards.
+
+8.11. Traits: Located directly underneath the card's name (for events), underneath the card's art (for units), or on the bottom of the card (for upgrades).
+
+8.12. Text Box: Contains any abilities that the card has.
+
+8.13. Credit Line: Located on the bottom of the card and contains credit and set information for that card.
+
+Note: For more detailed information on each card type and their interactions, please refer to the comprehensive rules document.

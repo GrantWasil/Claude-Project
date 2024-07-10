@@ -1,189 +1,101 @@
 # Star Wars Unlimited: Abilities and Effects
 
 ## Table of Contents
-A. [Types of Abilities](#a-types-of-abilities)
-B. [Effects](#b-effects)
-C. [Resolving Abilities and Effects](#c-resolving-abilities-and-effects)
-D. [Timing and Triggers](#d-timing-and-triggers)
-E. [Nested Abilities and Actions](#e-nested-abilities-and-actions)
-F. [Resolving Multiple Triggered Abilities](#f-resolving-multiple-triggered-abilities)
-G. [Ability and Effect Interactions](#g-ability-and-effect-interactions)
+1. [General](#1-general)
+2. [Types of Abilities](#2-types-of-abilities)
+3. [Effects](#3-effects)
+4. [Resolving Abilities and Effects](#4-resolving-abilities-and-effects)
+5. [Timing and Triggers](#5-timing-and-triggers)
 
-## A. Types of Abilities
+## 1. General
+1.1. An ability is specialized game text that indicates how a card affects the game. If a card has any printed abilities, they are found in the text box of that card.
 
-### A.1. Action Abilities
-- Indicated by the bolded word "Action" or "Epic Action"
-- Usually have a cost in brackets
-- Using an action ability counts as the player's action for the turn (see [Player Actions](player-actions.md))
-- Examples:
-  - "Action [Exhaust]: Deal 1 damage to a unit."
-  - "Action [2 Force]: Draw a card."
-  - "Epic Action [Destroy this unit]: Defeat all units in the ground arena."
+1.2. An upgrade can give an ability to a unit if that upgrade indicates that the attached unit "gains" the ability; treat the unit as having the ability in its text box for as long as the upgrade is attached to it.
 
-### A.2. Constant Abilities
-- Always in effect while the card is in play
-- Don't have any special styling
-- Remain in effect even if the card is [exhausted](game-concepts.md#5-ready-and-exhausted)
-- Examples:
-  - "While this unit is undamaged, it has Sentinel."
-  - "Your opponent's units lose all abilities."
-  - "Your base has +5 health."
+1.3. Unless otherwise specified, a player controls the abilities on cards they play and control.
 
-### A.3. Event Abilities
-- Found in the text box of [event cards](card-types.md#2-event)
-- Resolved when the event is played
-- Examples:
-  - "Deal 2 damage to each unit in the ground arena."
-  - "Ready all your units. You may move each of your units to an adjacent arena."
-  - "Search your deck for a unit with cost 3 or less and put it into your hand. Shuffle your deck."
+1.4. An effect is a non-cost part of a card ability that has the potential to change the game state. Some effects resolve separately from the ability that created them, or replace the standard resolution of the ability that created them.
 
-### A.4. Keyword Abilities
-- Indicated with bold red text
-- Have specific associated rules
-- Examples: Ambush, Grit, Overwhelm, Raid, Restore, Saboteur, Sentinel, Shielded
-- For detailed explanations, see the [Keywords](keywords.md) section
-- Additional examples:
-  - "Ambush (This unit can attack the turn it enters play.)"
-  - "Overwhelm 2 (This unit deals 2 excess damage to the opposing base when it defeats a unit.)"
-  - "Shielded (Prevent the first instance of damage that would be dealt to this unit each round.)"
+## 2. Types of Abilities
 
-### A.5. Triggered Abilities
-- Have bold text indicating their triggering condition
-- Start with "When" or "On", followed by a colon and an effect
-- Examples:
-  - "When Played: Draw a card."
-  - "When Defeated: Deal 1 damage to each enemy unit."
-  - "On Attack: This unit gets +2 power for this attack."
+### 2.1. Action Abilities
+2.1.1. An action ability is an ability indicated by the bolded word "Action."
 
-## B. Effects
+2.1.2. Most action abilities have a cost in brackets that must be paid in order to use the ability.
 
-### B.1. Lasting Effects
-- Affect the game for a specified duration
-- Often include phrases like "for this phase" or "for this attack"
-- Persist beyond the resolution of the ability that created them
-- Examples:
-  - "This unit gets +2/+2 for this phase."
-  - "Until the end of the turn, your opponent cannot play events."
-  - "For the rest of the game, your units have Overwhelm 1."
+2.1.3. Using an action ability is one type of action a player can take during their turn.
 
-### B.2. Delayed Effects
-- Created when an ability indicates a future timing point or condition
-- Resolve automatically after their specified timing point or condition occurs
-- Examples:
-  - "At the start of your next turn, draw a card."
-  - "At the end of this phase, deal 1 damage to each unit."
-  - "The next time you play a unit this turn, reduce its cost by 2."
+2.1.4. An Epic Action ability is a type of action ability that can only be used once per game.
 
-### B.3. Replacement Effects
-- Replace part or all of the standard resolution of a triggering condition
-- Indicated by the words "instead" or "would"
-- Examples:
-  - "If this unit would be defeated, instead heal all damage from it."
-  - "If you would draw a card, instead look at the top 2 cards of your deck and put one into your hand and the other on the bottom of your deck."
-  - "The first time each turn that you would gain Force, instead gain that much Force plus 1."
+### 2.2. Constant Abilities
+2.2.1. A constant ability is always in effect while the card it is on is in play. Constant abilities don't have any special styling.
 
-## C. Resolving Abilities and Effects
-- Resolve abilities in the order they are written
-- For choices, the player may resolve options in any order
-- Abilities that affect both players simultaneously are resolved simultaneously
-- If not simultaneous, the controlling player chooses the order
+2.2.2. A constant ability immediately comes into effect when the card it is on enters play and remains in effect while the card is in play.
 
-## D. Timing and Triggers
-- Triggered abilities resolve at the next available opportunity
-- Multiple triggers controlled by one player: that player chooses the order
-- Multiple triggers controlled by both players: active player chooses who resolves first
-- If both players must resolve triggered abilities on cards they control at the same time:
-  1. The active player chooses one player to resolve abilities.
-  2. The chosen player resolves all abilities triggered on cards they control in the order of their choice.
-  3. Once they finish, the other player does the same on cards they control.
-- If an ability instructs a player to "ignore" a keyword ability or aspect penalty:
-  - For keywords: Treat the ignored ability as inactive for the specified duration
-  - For aspect penalty: Pay the cost of the card without adding the aspect penalty, but the card still retains its aspect icons
+2.2.3. Some constant abilities continuously check the game for a specific condition to be met for their effects to apply to the game. These abilities usually include the word "while."
 
-## E. Nested Abilities and Actions
-- Abilities triggered during the resolution of another ability are "nested"
-- Nested abilities must be fully resolved before returning to earlier ability layers
-- Example: 
-  1. Player A plays a card that defeats an enemy unit. 
-  2. The defeated unit has a "When Defeated" ability that triggers.
-  3. This "When Defeated" ability is resolved before any other abilities that triggered from the initial card play.
+2.2.4. Constant abilities remain in effect even if the card they're on is exhausted.
 
-## F. Resolving Multiple Triggered Abilities
+### 2.3. Event Abilities
+2.3.1. An event ability is an ability found in the text box of an event and is resolved when the event is played.
 
-When multiple triggered abilities occur simultaneously, follow this flowchart to resolve them:
+2.3.2. When an event is played, it is placed in its owner's discard pile before its ability resolves.
 
-```
-[Start]
-     |
-     v
-Is there more than one triggered ability?
-     |
-   +---+
-   |   |
-  Yes  No
-   |   |
-   |   v
-   | Resolve the single ability
-   |
-   v
-Are all triggers controlled by the same player?
-   |
- +---+
- |   |
-Yes  No
- |   |
- |   v
- | Active player chooses which player resolves first
- |
- v
-Controlling player chooses order of resolution
-     |
-     v
-Resolve abilities one at a time
-     |
-     v
-Check for new triggers after each resolution
-     |
-     v
-[End]
-```
+2.3.3. An event ability must be resolved as completely as possible. Any part of the event ability that cannot be resolved is ignored.
 
-## G. Ability and Effect Interactions
+### 2.4. Keyword Abilities
+2.4.1. A keyword or keyword ability is a card ability indicated with bold red text and that has specific associated rules.
 
-Understanding how different abilities and effects interact is crucial for mastering Star Wars Unlimited. Here are some key interactions to keep in mind:
+2.4.2. A keyword ability resolves automatically unless its definition includes the word "may."
 
-1. Constant Abilities vs. Temporary Effects:
-   - Temporary effects (e.g., "until end of turn") override constant abilities for their duration.
-   - Example: If a unit has a constant ability "This unit has Sentinel" and is affected by "This unit loses all abilities until end of turn," it will not have Sentinel for that turn.
+2.4.3. If a card is given a keyword it already has, those keywords do not "stack" unless those keywords are followed by a numeral, a cost, or an em dash and ability text.
 
-2. Layering Effects:
-   - When multiple effects modify a unit's stats, apply them in the order they were created.
-   - Example: If a 2/2 unit gets "+1/+1 until end of turn" and then "+2/+0 for this attack," it becomes a 5/3 unit for that attack.
+### 2.5. Triggered Abilities
+2.5.1. Triggered abilities have bold text indicating their triggering condition, starting with the word "When" or "On", followed by a colon and an effect.
 
-3. Replacement Effects and Prevention:
-   - If multiple replacement effects would apply to the same event, the affected player chooses the order in which to apply them.
-   - Prevention effects create replacement effects that prevent some or all of a damage event.
-   - Example: If a unit with "Prevent the first 2 damage dealt to this unit each turn" would be dealt 3 damage, it prevents 2 damage and takes 1.
+2.5.2. For a triggered ability to resolve, the card with the ability must be in play when the triggering condition occurs, unless the ability specifies that it can be triggered from an out-of-play zone.
 
-4. Triggered Abilities and State-Based Effects:
-   - State-based effects (like defeating a unit with 0 health) are checked before triggered abilities resolve.
-   - Example: If a 1/1 unit has "When this unit is defeated, deal 1 damage to target unit" and takes 1 damage, it will be defeated before its ability resolves, but the ability will still trigger and resolve.
+2.5.3. A triggered ability must resolve once its triggering condition is met unless the ability uses the phrase "you may."
 
-5. Keyword Interactions:
-   - Some keywords have specific interactions with each other or with certain effects.
-   - Example: A unit with both Ambush and "When Played" abilities can use its Ambush to attack before its "When Played" ability resolves.
+## 3. Effects
 
-6. Timing Conflicts:
-   - When abilities would trigger at the same time but have conflicting results, apply the following priority:
-     1. Prevention effects
-     2. Replacement effects
-     3. Triggered abilities
-   - Example: If one effect says "The next time you would draw a card this turn, don't" and another says "At the start of your turn, draw a card," the prevention effect takes precedence, and you don't draw.
+### 3.1. Lasting Effects
+3.1.1. A lasting effect is a part of an ability that affects the game for a specified duration of time. Most lasting effects include the phrase "for this phase" or "for this attack."
 
-Understanding these interactions will help you make better strategic decisions and resolve complex game states accurately.
+3.1.2. A lasting effect persists beyond the resolution of the ability that created it and for the duration specified by the ability, even if the ability that created the effect was on a card that left play.
 
----
+### 3.2. Delayed Effects
+3.2.1. A delayed effect is created when a card ability indicates a future timing point or a future condition that may arise and an effect that will happen at that time.
 
-For more information on card types, see the [Card Types](card-types.md) section.
-For details on game concepts, refer to the [Game Concepts](game-concepts.md) section.
-For information on specific keywords, check the [Keywords](keywords.md) section.
+3.2.2. Delayed effects resolve automatically and immediately after their specified timing point or future condition occurs, before any other abilities triggered by that timing point or condition.
+
+### 3.3. Replacement Effects
+3.3.1. A replacement effect occurs when part or all of the standard resolution of a triggering condition or ability is replaced with an alternate resolution. This alternate resolution is the "replacement effect."
+
+3.3.2. Replacement effects are indicated by the words "instead" or "would."
+
+3.3.3. A replacement effect must be resolved immediately upon its condition being met, unless the effect uses the phrase "you may."
+
+## 4. Resolving Abilities and Effects
+4.1. When a player resolves an ability, they must resolve the effects of that ability in the order they are written.
+
+4.2. If an ability allows a player to choose some number of options, they may resolve those options in any order.
+
+4.3. If an ability that affects both players can be resolved simultaneously, resolve the ability simultaneously. Otherwise, the player that controls the card with the ability can choose the order in which each player is affected by the ability.
+
+## 5. Timing and Triggers
+5.1. A triggered ability is considered to resolve during the same turn or game step that it was triggered.
+
+5.2. Resolving a triggered ability is not the same as taking an action. A player can resolve a triggered ability outside of their turn.
+
+5.3. If an ability triggers during or as the result of a non-attack action, resolve that ability at the next available opportunity after that action is fully completed.
+
+5.4. If an ability triggers during an attack, resolve that ability at the appropriate timing point within that attack.
+
+5.5. If a player must resolve multiple triggered abilities on cards they control at the same time, that player chooses the order in which to resolve those abilities.
+
+5.6. If both players must resolve triggered abilities on cards they control at the same time, the active player chooses one player at a time to resolve abilities. When chosen, that player resolves all abilities triggered on cards they control in the order of their choice, and once they finish, the other player does the same on cards they control.
+
+5.7. After resolving a triggered ability "A", if any new abilities were triggered while resolving it, the new abilities are considered "nested abilities" and must be resolved before any other abilities triggered at the same time as ability "A".
+
+Note: For more detailed information on specific abilities and their interactions, please refer to the comprehensive rules document.

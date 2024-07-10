@@ -1,160 +1,93 @@
 # Star Wars Unlimited: Game Zones
 
 ## Table of Contents
-A. [Base Zone](#a-base-zone)
-B. [Ground Arena](#b-ground-arena)
-C. [Space Arena](#c-space-arena)
-D. [Resource Zone](#d-resource-zone)
-E. [Deck](#e-deck)
-F. [Hand](#f-hand)
-G. [Discard Pile](#g-discard-pile)
-H. [In-Play and Out-of-Play](#h-in-play-and-out-of-play)
-I. [Play Area](#i-play-area)
-J. [Set Aside](#j-set-aside)
-K. [Game Layout](#k-game-layout)
+1. [General](#1-general)
+2. [Base Zone](#2-base-zone)
+3. [Ground Arena](#3-ground-arena)
+4. [Space Arena](#4-space-arena)
+5. [Resource Zone](#5-resource-zone)
+6. [Deck](#6-deck)
+7. [Hand](#7-hand)
+8. [Discard Pile](#8-discard-pile)
+9. [In-Play and Out-of-Play](#9-in-play-and-out-of-play)
+10. [Play Area](#10-play-area)
+11. [Set Aside/Being In No Zone](#11-set-asidebeing-in-no-zone)
 
-## A. Base Zone
-- Each player has their own base zone.
-- Located in the center of their play area.
-- Contains the player's [base](card-types.md#1-base) and [leader](card-types.md#3-leader) (when not deployed).
-- Units in either arena may attack enemy bases directly without leaving their arena.
+## 1. General
+1.1. Zones are defined areas of the game with specific rules. There are seven different types of zones in the game: each player's base zone, the ground arena, the space arena, each player's resource zone, each player's deck, each player's hand, and each player's discard pile.
 
-Example: "Death Star" base card starts in the base zone. When a player uses their leader's Epic Action to deploy, the leader moves from the base zone to the ground arena.
+1.2. The ground arena and space arena are shared between players, while the other zones are separate for each player.
 
-Strategic Implications:
-- Protecting your base is crucial as its destruction leads to defeat.
-- Some bases have powerful abilities that can be activated from this zone, influencing your overall strategy.
-- The base zone's central location makes it vulnerable to attacks from both arenas, requiring careful defense planning.
+1.3. The "game area" refers to all zones in the game collectively.
 
-## B. Ground Arena
-- Shared zone for both players.
-- Located next to each player's base zone.
-- Ground units are played into this zone.
-- Ground units can attack enemy ground units or the enemy base.
-- Cannot attack enemy units in the space arena unless an ability allows it.
+## 2. Base Zone
+2.1. Each player has their own base zone, which is located in the center of their play area.
 
-Example: A "Stormtrooper Squad" unit card is played from hand into the ground arena. It can then attack enemy ground units or the enemy base, but not space units.
+2.2. Each player's base and leader start the game in this zone.
 
-Strategic Implications:
-- Control of the ground arena can prevent direct attacks on your base from enemy ground units.
-- Some units have abilities that specifically interact with other ground units, making this arena crucial for certain strategies.
-- Balancing your presence in both arenas is key to a well-rounded defense and offense.
+2.3. Bases always remain in their owner's base zone. Leaders move from their owner's base zone to the ground arena when deployed, and from the ground arena to their owner's base zone when defeated.
 
-## C. Space Arena
-- Shared zone for both players.
-- Located next to each player's base zone.
-- Space units are played into this zone.
-- Space units can attack enemy space units or the enemy base.
-- Cannot attack enemy units in the ground arena unless an ability allows it.
+2.4. Units in either arena may attack enemy bases directly, and do not leave their arena when doing so.
 
-Example: An "X-wing Starfighter" unit card is played from hand into the space arena. It can attack enemy space units or the enemy base, but not ground units.
+## 3. Ground Arena
+3.1. The ground arena is a zone shared by players, located next to each player's base zone.
 
-Strategic Implications:
-- Controlling the space arena can prevent direct attacks on your base from enemy space units.
-- Space units often have unique abilities that can influence the game in ways ground units cannot.
-- Neglecting either arena can leave you vulnerable, so consider your deck composition carefully.
+3.2. Each player's ground units are played into this zone, and face their controller when they're ready.
 
-## D. Resource Zone
-- Each player has their own resource zone.
-- Contains cards used as resources to pay costs.
-- Resources are placed facedown.
-- A player may view their own resources at any time.
-- Players can add a card from their hand to their resource zone during each [regroup phase](turn-structure.md#3-regroup-phase).
+3.3. Friendly ground units can attack enemy ground units in the ground arena, as well as the enemy base.
 
-Example: During the regroup phase, a player chooses to place a card from their hand facedown in their resource zone instead of playing it. This card can now be used to pay for costs on future turns.
+3.4. Ground units cannot attack enemy units in the space arena unless an ability specifically allows it. However, ground units may be able to deal damage to units in the space arena through abilities.
 
-Strategic Implications:
-- Balancing resource development with playing cards is crucial for long-term success.
-- Some cards allow you to put additional resources into play, potentially accelerating your game plan.
-- Knowing when to build resources versus developing your board state is a key skill in the game.
+## 4. Space Arena
+4.1. The space arena is a zone shared by players, located next to each player's base zone.
 
-## E. Deck
-- Each player's deck is its own zone.
-- Cards are facedown and out of play.
-- Cannot be viewed except through abilities.
-- Cards leave the deck when drawn, discarded, or played directly from the deck.
-- If a player would draw from an empty deck, they deal 3 damage to their base for each card they would draw.
+4.2. Each player's space units are played into this zone, and face their controller when they're ready.
 
-Example: A card ability states "Look at the top 3 cards of your deck. You may play one of them." This allows interaction with the deck zone.
+4.3. Friendly space units can attack enemy space units in the space arena, as well as the enemy base.
 
-Strategic Implications:
-- Deck construction is crucial as it determines what cards you'll have access to during the game.
-- Cards that allow you to search your deck or play cards from it can provide significant advantages.
-- Managing your deck size and draw effects is important to avoid self-damage from an empty deck.
+4.4. Space units cannot attack enemy units in the ground arena unless an ability specifically allows it. However, space units may be able to deal damage to units in the ground arena through abilities.
 
-## F. Hand
-- Each player's hand is its own zone.
-- No limit to the number of cards in hand.
-- Cards enter the hand when drawn or returned from another zone.
-- Cards leave the hand when played or discarded.
-- A player may only look at their own hand.
-- The number of cards in a player's hand is open information.
+## 5. Resource Zone
+5.1. Each player has their own resource zone. Cards in a resource zone are called "resources," which can be exhausted to pay the costs of other cards.
 
-Example: At the end of a turn, a player draws two cards, moving them from their deck to their hand.
+5.2. Resources are placed facedown and remain facedown while in a resource zone. A player may view facedown resources they control at any time, returning them facedown when finished.
 
-Strategic Implications:
-- Hand size can indicate a player's options and potential threats.
-- Some abilities force opponents to discard from their hand, potentially disrupting their plans.
-- Managing your hand size through card draw and strategic play is key to maintaining flexibility.
+5.3. Players can choose to add a card from their hand to their resource zone during each regroup phase.
 
-## G. Discard Pile
-- Each player's discard pile is its own zone.
-- Contains played [events](card-types.md#2-event), defeated (non-leader) [units](card-types.md#4-unit), defeated [upgrades](card-types.md#5-upgrade), and discarded cards.
-- Cards are placed faceup.
-- Open information that can be viewed by any player at any time.
-- The order of cards in a discard pile does not need to be maintained.
+## 6. Deck
+6.1. Each player's deck is its own zone. By default, cards in a player's deck are facedown, out of play, and cannot be viewed except through abilities.
 
-Example: After a "Force Lightning" event card is played and resolved, it's placed in the discard pile.
+6.2. Cards in a deck leave the deck when they are drawn, discarded, or played directly from the deck. A card is not considered to leave a deck when searched, looked at, or revealed from the deck (unless it is immediately drawn, discarded, or played).
 
-Strategic Implications:
-- The discard pile can be a resource for cards with abilities that interact with it.
-- Knowing what's in your opponent's discard pile can inform you about their deck composition and what threats have been neutralized.
-- Some strategies revolve around retrieving cards from the discard pile or using it as a resource.
+## 7. Hand
+7.1. Each player's hand is its own zone. A player can have any number of cards in their hand.
 
-## H. In-Play and Out-of-Play
-- In-play zones: base zone, ground arena, space arena, and resource zone.
-- Out-of-play zones: deck, hand, and discard pile.
-- Cards in out-of-play zones can't affect the game unless specified.
-- Abilities that affect out-of-play zones must explicitly state the zone they affect.
+7.2. Cards enter a player's hand when a player draws from their deck, or when an ability returns a card from another zone to their hand.
 
-## I. Play Area
-- A player's play area consists of cards they control in in-play zones.
-- Includes: cards in base zone, resource zone, controlled units in arenas, and upgrades on controlled units.
-- Excludes: upgrades on enemy units (even if controlled by the player).
-- There is no limit to the number of cards a player can control in their play area.
+7.3. The cards in a player's hand may be looked at only by that player, and the faceup sides of those cards are considered hidden information for that player's opponent. The number of cards in a player's hand is considered open information.
 
-## J. Set Aside
-- Cards that are set aside are out-of-play and not in any zone.
-- [Token](card-types.md#6-token) cards begin the game set aside.
-- Set aside cards can only be interacted with through specific card abilities.
+## 8. Discard Pile
+8.1. Each player's discard pile is its own zone. Played events, defeated (non-leader) units, defeated upgrades, and discarded cards are placed in a player's discard pile, faceup.
 
-## K. Game Layout
+8.2. Cards in a player's discard pile are considered open information and can be viewed by any player at any time.
 
-```
-[Player 1]
-+----------------+----------------+----------------+
-|     Deck       |      Hand      |   Discard Pile |
-+----------------+----------------+----------------+
-|                |                |                |
-|  Space Arena   | Resource Zone  |  Ground Arena  |
-|                |                |                |
-+----------------+----------------+----------------+
-|                |                |                |
-|                |   Base Zone    |                |
-|                |                |                |
-+----------------+----------------+----------------+
-|                |                |                |
-|  Ground Arena  | Resource Zone  |   Space Arena  |
-|                |                |                |
-+----------------+----------------+----------------+
-|   Discard Pile |      Hand      |     Deck       |
-+----------------+----------------+----------------+
-[Player 2]
-```
+8.3. The order of cards in a discard pile does not need to be maintained; a player may rearrange the cards in their discard pile at any time.
 
-This layout shows the relative positions of all game zones for both players. The central row represents the shared base zones, while the rows above and below show the mirrored layouts for each player's areas.
+## 9. In-Play and Out-of-Play
+9.1. There are four types of "in-play" zones: each player's base zone, the ground arena, the space arena, and each player's resource zone.
 
----
+9.2. There are three types of "out-of-play" zones: each player's deck, each player's hand, and each player's discard pile.
 
-For more information on card types, see the [Card Types](card-types.md) section.
-For details on turn structure, refer to the [Turn Structure](turn-structure.md) section.
+9.3. For an ability to resolve from an out-of-play zone or to affect a card in an out-of-play zone, the ability must either explicitly state the out-of-play zone it resolves from or affects, or it must be a type of ability that by default resolves from an out-of-play zone.
+
+## 10. Play Area
+10.1. A player's "play area" consists of cards that player controls in in-play zones, with the exception of any upgrades that player controls attached to enemy units (which are in the unit's controller's play area).
+
+10.2. There is no limit on the number of cards a player can control in their play area.
+
+## 11. Set Aside/Being In No Zone
+11.1. When a card is set aside, it is considered to be out-of-play and not located in any zone.
+
+11.2. Token cards begin the game set aside, and are put into play by certain abilities. When a token leaves play, it is set aside again.
+
+Note: For more detailed information on how cards interact within and between zones, please refer to the comprehensive rules document.

@@ -5,133 +5,136 @@
   - [Table of Contents](#table-of-contents)
   - [1. General Concepts](#1-general-concepts)
   - [2. Golden Rules](#2-golden-rules)
-  - [3. Players and Turn Structure](#3-players-and-turn-structure)
+  - [3. Players and Active Player](#3-players-and-active-player)
   - [4. Card Ownership and Control](#4-card-ownership-and-control)
   - [5. Ready and Exhausted](#5-ready-and-exhausted)
   - [6. Defeating Cards](#6-defeating-cards)
   - [7. Aspects and Unique Cards](#7-aspects-and-unique-cards)
   - [8. Resources and Costs](#8-resources-and-costs)
-  - [9. Strategic Resource Management](#9-strategic-resource-management)
-  - [10. Glossary of Common Game Terms](#10-glossary-of-common-game-terms)
+  - [9. Damage and HP](#9-damage-and-hp)
+  - [10. Power](#10-power)
+  - [11. Game State](#11-game-state)
+  - [12. Open and Hidden Information](#12-open-and-hidden-information)
+  - [13. Glossary of Common Game Terms](#13-glossary-of-common-game-terms)
 
 ## 1. General Concepts
-1.1. Star Wars Unlimited is a two-player card game (unless otherwise specified for [multiplayer rules](multiplayer-rules.md)).
+1.1. Star Wars Unlimited is typically a two-player card game, but can be played with more players using multiplayer rules.
 
-1.2. Players need one deck each, an initiative counter, damage counters, and token cards.
+1.2. Players need one deck each, an initiative counter, damage counters, and token cards matching any types created by their decks.
 
 1.3. There is no maximum number of cards a deck can have. The minimum number of cards varies by format.
-   - For example, in the Premier format, a deck must contain exactly 1 [leader](card-types.md#3-leader), exactly 1 [base](card-types.md#1-base), and a minimum of 50 other cards (consisting of [units](card-types.md#4-unit), [events](card-types.md#2-event), and [upgrades](card-types.md#5-upgrade)).
+   - For example, in the Premier format, a deck must contain exactly 1 leader, exactly 1 base, and a minimum of 50 other cards (consisting of units, events, and upgrades).
 
-1.4. Leaders and bases are part of a deck for deckbuilding but not during gameplay.
+1.4. Leaders and bases are part of a deck for deckbuilding but are not considered part of a deck during gameplay.
 
 1.5. Tokens are not part of a player's deck and don't count toward deck size.
 
 1.6. Players may include cards from any aspect in their deck, even if they don't match their leader/base aspects (though playing these cards may incur the aspect penalty).
 
 ## 2. Golden Rules
-2.1. Card text takes precedence over the Comprehensive Rules.
+2.1. If the text of a card directly contradicts the text of the Comprehensive Rules, the text of the card takes precedence.
 
-2.2. When resolving an ability, do as much as you can and ignore parts that can't be resolved.
+2.2. While resolving a card ability, resolve as much of the ability as possible, and ignore any parts of the ability that cannot be resolved.
 
-2.3. Restrictions override permissions.
+2.3. In case of a conflict between a restrictive ability and a permissive ability, the restriction takes precedence.
 
-## 3. Players and Turn Structure
-3.1. The active player is the one currently taking an action.
+## 3. Players and Active Player
+3.1. The active player is the player that is currently taking an action.
 
-3.2. Players alternate being the active player during the [action phase](turn-structure.md#2-action-phase).
+3.2. Players take turns being the active player during the action phase.
 
-3.3. The first active player starts with the initiative counter.
+3.3. The first active player in a game is the player that started the game with the initiative counter.
 
-3.4. If no player is taking an action, the player with the initiative counter is considered the active player.
+3.4. If no player is currently taking an action, such as during the regroup phase, the player with the initiative counter is considered to be the active player.
 
 ## 4. Card Ownership and Control
-4.1. A player owns cards that started in their deck and tokens they put into play.
+4.1. A player is the "owner" of a card that started the game in their deck. This includes the deck's leader, base, and any events, units, and upgrades that started the game in that deck. A player is also the "owner" of any tokens they put into play.
 
-4.2. A player controls cards they put into play until they leave play or an opponent takes control.
+4.2. A player is the "controller" of a card they put into play. This includes their base, their leader, resources in their resource zone, and units, upgrades, and tokens they play or put into play.
 
-4.3. While controlling a card, a player may use its abilities, attack with it if it's a unit, and affect it with "friendly" card abilities.
+4.3. While a player controls a card, they may resolve action abilities on the card, attack with the card if it is a unit, and affect it with abilities that affect "friendly" cards.
 
-4.4. Taking control of a card maintains its status (ready/exhausted, damage, upgrades).
+4.4. If an ability instructs a player to "take control" of a card, that player will become that card's controller, and remain so until either that card leaves play or their opponent takes control of that card.
 
 ## 5. Ready and Exhausted
-[Content remains unchanged]
+5.1. A card is considered "ready" when it is turned upright. A card is considered "exhausted" when it is turned sideways (rotated 90 degrees).
+
+5.2. Each non-leader unit and resource enters play exhausted. Upgrades are neither ready nor exhausted.
+
+5.3. When a Leader Unit is deployed, it enters the ground arena ready, even if it was exhausted before.
+
+5.4. Exhausted cards ready through certain card abilities, or during the regroup phase each round.
+
+5.5. A ready unit must exhaust when starting an attack, or when paying the cost of an action ability on it that uses a ↷ icon.
 
 ## 6. Defeating Cards
-6.1. Cards in play can be defeated when they have damage equal to or greater than their HP, or when an ability defeats them directly.
+6.1. Cards that are in-play, including bases, tokens, units, upgrades, and resources, can be defeated.
 
-6.2. When a non-leader unit is defeated, it goes to its owner's [discard pile](game-zones.md#g-discard-pile).
+6.2. A base is defeated when it has damage on it equal to or greater its HP. When a base is defeated, its owner loses the game.
 
-6.3. When a leader unit is defeated, it flips to its Leader side and moves to its owner's [base zone](game-zones.md#a-base-zone), exhausted.
+6.3. A unit is defeated when it has damage on it equal to or greater than its HP, or when an ability defeats it directly. When a non-leader unit is defeated, it is moved to its owner's discard pile.
 
-6.4. When an upgrade is defeated, it goes to its owner's discard pile.
+6.4. When a leader unit is defeated, it is flipped to its Leader side and moved to its owner's base zone, exhausted.
 
-6.5. When a token is defeated, it is set aside out-of-play.
+6.5. An upgrade is defeated when the unit it is attached to leaves play, or when an ability defeats it directly. When an upgrade is defeated, it is moved to its owner's discard pile.
 
-6.6. When a resource is defeated, it goes to its owner's discard pile faceup.
+6.6. When a token is defeated, it is set aside out-of-play.
+
+6.7. When a resource is defeated, it is moved to its owner's discard pile faceup.
 
 ## 7. Aspects and Unique Cards
 7.1. Aspects
-- There are six aspects: Vigilance, Command, Aggression, Cunning, Villainy, and Heroism.
+- There are six aspects: Vigilance ![Image 1: Vigilance Aspect](https://swudb.com/images/Vigilance.png), Command ![Image 2: Command Aspect](https://swudb.com/images/Command.png), Aggression ![Image 3: Aggression Aspect](https://swudb.com/images/Aggression.png), Cunning ![Image 4: Cunning Aspect](https://swudb.com/images/Cunning.png), Villainy ![Image 5: Villainy Aspect](https://swudb.com/images/Villainy.png), and Heroism ![Image 6: Heroism Aspect](https://swudb.com/images/Heroism.png).
 - Players incur an aspect penalty when playing cards with aspects not provided by their leader or base.
 - The aspect penalty is 2 additional resources for each missing aspect icon.
-
-Examples of Aspect Penalty:
-- If your leader and base provide Vigilance and Command, playing a card with only Aggression would cost 2 additional resources.
-- If your leader and base provide Vigilance, Command, and Aggression, playing a card with Cunning and Villainy would cost 2 additional resources (only one aspect is missing).
-- If your leader and base provide Vigilance and Command, playing a card with Heroism and Villainy would cost 4 additional resources (two aspects are missing).
-
-Strategic Considerations:
-- Including off-aspect cards in your deck can provide powerful options but at a higher cost.
-- Cards without aspects can be played without incurring the aspect penalty, making them versatile choices for any deck.
-- Some cards or abilities may reduce or negate the aspect penalty, allowing for more flexible deck building.
 
 7.2. Unique Cards
 - Unique cards are indicated by a ⟡ symbol before their name.
 - A player can only control one copy of each unique card at a time.
 - If a player would control a second copy of a unique card, they must immediately defeat one copy.
 
-7.3. Play vs. Put into Play
-- "Play" means to use a card from hand by paying its cost and following standard play rules.
-- "Put into play" means to move a card into play without paying its cost or triggering "When Played" abilities.
-
 ## 8. Resources and Costs
-8.1. Resources are cards placed facedown in a player's [resource zone](game-zones.md#d-resource-zone).
+8.1. A resource is a game object used to pay the costs of cards and certain abilities. A card becomes a resource when placed into a player's resource zone.
 
-8.2. To play a card or use certain abilities, a player must exhaust a number of ready resources equal to the cost.
+8.2. When paying a card's cost or the cost of an ability that uses a {R} icon, a player must exhaust ready resources they control equal to the number indicated by the cost.
 
-8.3. Players can add one card from their hand to their resource zone during the regroup phase.
+8.3. Players can choose to add a card from their hand to their resource zone during each regroup phase.
 
 8.4. Some abilities allow players to put cards into play as resources outside of the regroup phase.
 
-8.5. The printed cost of a card can be modified by various effects, including the aspect penalty.
+8.5. A card's cost can be modified through abilities. Any modifiers to a card's cost must be taken into account when paying for the cost of a card.
 
-## 9. Strategic Resource Management
+## 9. Damage and HP
+9.1. Cards with HP values (units and bases) can be dealt damage by attacks and abilities. Damage dealt is represented by damage counters.
 
-9.1. Resource Curve
-- Consider the distribution of card costs in your deck to ensure a smooth "resource curve."
-- Aim for a balance of low-cost cards for early game and high-impact, higher-cost cards for later turns.
+9.2. When damage is dealt to a card, place that many damage counters on that card.
 
-9.2. Resource Development
-- Decide each turn whether to play a card or add it to your resource zone.
-- Adding resources consistently can provide long-term advantages but may sacrifice short-term board presence.
+9.3. When damage is healed from a card, remove that many damage counters from that card.
 
-9.3. Aspect Management
-- When deck building, consider the aspect penalty costs for off-aspect cards.
-- During gameplay, weigh the benefits of playing an off-aspect card against the additional resource cost.
+9.4. Damage is persistent. Damage counters remain on cards until either the card leaves play, or the damage is healed.
 
-9.4. Card Economy
-- Some cards allow you to draw additional cards or put resources into play.
-- These effects can accelerate your game plan and should be used strategically.
+9.5. If a unit has damage on it equal to or greater than its HP value, that unit is immediately defeated.
 
-9.5. Timing and Sequencing
-- Plan your resource usage carefully, considering both your current turn and future turns.
-- Sometimes it's beneficial to hold resources for reactive plays during your opponent's turn.
+9.6. If a base has damage on it equal to or greater than its HP value, its owner immediately loses the game, and their opponent wins the game.
 
-9.6. Resource Denial
-- Some cards or abilities can destroy or exhaust your opponent's resources.
-- Using these effects at crucial moments can disrupt your opponent's strategy.
+## 10. Power
+10.1. Power represents the amount of damage a unit deals during combat.
 
-## 10. Glossary of Common Game Terms
+10.2. A unit's power can be modified by upgrades attached to it, or through certain card abilities.
+
+10.3. A card's power cannot be modified below 0. If a card's power would be modified below 0, treat the card's power as 0 instead.
+
+## 11. Game State
+11.1. "The game state" refers to: each card's current zone, controller, attributes, and status (ready/exhausted and faceup/facedown); the initiative counter's controller and status (taken/available); the status of open and hidden information for a player; the status of all active lasting effects and delayed effects; and the status of **Epic Action** abilities (used/unused).
+
+11.2. A player must change the game state when they take any action other than passing during their turn.
+
+## 12. Open and Hidden Information
+12.1. "Open information" refers to information that any player is entitled to know. This includes the attributes of faceup cards in play, the number of counters on cards, the number of cards in each player's hand and deck, the cards in each player's discard pile, and the reverse side of each player's leader.
+
+12.2. "Hidden information" refers to information that has restrictions on when it can be known, and by whom. This includes the order of cards in each player's deck and cards in a player's hand or resources.
+
+## 13. Glossary of Common Game Terms
 
 - **Active Player**: The player currently taking an action or the player with the initiative counter if no actions are being taken.
 - **Aspect**: One of six attributes (Vigilance, Command, Aggression, Cunning, Villainy, Heroism) that determine a card's affiliation and potential additional costs.
