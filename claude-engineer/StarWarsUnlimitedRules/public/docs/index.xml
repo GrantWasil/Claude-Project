@@ -27,7 +27,7 @@
       <link>http://localhost:1313/docs/abilities-and-effects/</link>
       <pubDate>Fri, 21 Jun 2024 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/docs/abilities-and-effects/</guid>
-      <description>Table of Contents link General Types of Abilities Effects Resolving Abilities and Effects Timing and Triggers General linkAn ability is specialized game text that indicates how a card affects the game. If a card has any printed abilities, they are found in the text box of that card.&#xA;An upgrade can give an ability to a unit if that upgrade indicates that the attached unit &amp;ldquo;gains&amp;rdquo; the ability; treat the unit as having the ability in its text box for as long as the upgrade is attached to it.</description>
+      <description>Abilities and effects are core components of Star Wars Unlimited, defining how cards interact with each other and impact the game state. This section provides a comprehensive overview of the different types of abilities and effects, their resolution, and timing considerations.&#xA;Table of Contents link General Types of Abilities Effects Resolving Abilities and Effects Timing and Triggers General linkAn ability is specialized game text that indicates how a card affects the game.</description>
     </item>
     <item>
       <title>Setup and Victory</title>
@@ -55,7 +55,7 @@
       <link>http://localhost:1313/docs/turn-structure/</link>
       <pubDate>Wed, 10 Jul 2024 04:56:37 -0600</pubDate>
       <guid>http://localhost:1313/docs/turn-structure/</guid>
-      <description>Star Wars Unlimited: Game Structure linkThis section covers the overall game structure and turn sequence in Star Wars Unlimited.&#xA;1. General Rules link A game consists of multiple rounds, each with an action phase and regroup phase. During the action phase, players alternate taking actions. During the regroup phase, players can put a resource into play and ready exhausted cards. Each step of setup and both phases must be completed in full unless otherwise specified.</description>
+      <description>Turn Structure in Star Wars Unlimited linkUnderstanding the turn structure is crucial for mastering Star Wars Unlimited. This section provides a comprehensive overview of how each game round unfolds, from setup to victory. A solid grasp of turn structure will help you plan your strategies and make the most of each action.&#xA;1. Game Overview linkA game of Star Wars Unlimited consists of multiple rounds, each divided into two main phases: the Action Phase and the Regroup Phase.</description>
     </item>
     <item>
       <title>Game Zones</title>
@@ -69,7 +69,7 @@
       <link>http://localhost:1313/docs/player-actions/</link>
       <pubDate>Wed, 10 Jul 2024 04:56:22 -0600</pubDate>
       <guid>http://localhost:1313/docs/player-actions/</guid>
-      <description>Player Actions in Star Wars Unlimited linkThis section provides clarifications and timing charts for the following actions: Play a Card, Attack With a Unit, and Use an Action Ability.&#xA;info For each type of action, perform each step in order and as completely as possible. Play A Card linkGeneral Rules link A player follows these steps when they choose to take the Play a Card action on their turn, or when they resolve an ability that lets them play a card as a nested action.</description>
+      <description>Player Actions in Star Wars Unlimited linkUnderstanding player actions is crucial for mastering Star Wars Unlimited. This section provides detailed explanations and timing charts for the core actions: Play a Card, Attack With a Unit, and Use an Action Ability.&#xA;info For each type of action, perform each step in order and as completely as possible. Resolve any triggered abilities between steps before proceeding. Play A Card linkGeneral Rules link A player follows these steps when they choose to take the Play a Card action on their turn, or when they resolve an ability that lets them play a card as a nested action.</description>
     </item>
     <item>
       <title>Multiplayer Rules</title>

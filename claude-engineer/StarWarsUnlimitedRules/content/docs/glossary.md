@@ -104,6 +104,9 @@ A keyword that gives a unit +1 power for each damage on it. [See Keywords](keywo
 ### Ground Arena
 The zone where ground units are played. [See Game Zones](game-zones.md#b-ground-arena) (Related: [Arena](#a), [Space Arena](#s))
 
+### Goldfish
+(Slang) To play out your strategy without interaction, as if playing against an opponent doing nothing.
+
 ## H
 
 ### Hand
@@ -111,6 +114,9 @@ The zone where a player holds cards not yet played. [See Game Zones](game-zones.
 
 ### HP (Hit Points)
 How much damage a card can take before being defeated. [See Card Types](card-types.md#4-unit)
+
+### Hate Card
+(Slang) A card specifically included to counter a popular strategy or deck type.
 
 ## I
 
@@ -140,6 +146,9 @@ An effect that persists for a specified duration. [See Abilities and Effects](ab
 ### Meta
 (Slang) The current state of popular strategies and deck types in competitive play.
 
+### Mirror Match
+(Slang) A game where both players are using very similar or identical deck strategies.
+
 ## N
 
 ### Nested Ability
@@ -160,6 +169,9 @@ To use a card from hand by paying its cost and putting it into play or resolving
 
 ### Power
 How much damage a unit deals in combat. [See Card Types](card-types.md#4-unit)
+
+### Ping
+(Slang) To deal a small amount of damage, often to remove a Shield token or defeat a low-HP unit.
 
 ## R
 
@@ -201,6 +213,9 @@ The zone where space units are played. [See Game Zones](game-zones.md#c-space-ar
 ### Splash
 (Slang) Including a small number of off-aspect cards in a deck for their powerful effects.
 
+### Swing
+(Slang) A significant change in the game state, often due to a powerful play or attack.
+
 ## T
 
 ### Tech
@@ -214,6 +229,9 @@ A category on a card that may be referenced by other cards. [See Card Types](car
 
 ### Trigger
 The condition that causes an ability to resolve. [See Abilities and Effects](abilities-and-effects.md#a5-triggered-abilities)
+
+### Tempo
+(Slang) The pace and momentum of the game, often referring to who has the initiative in dictating play.
 
 ## U
 
@@ -230,6 +248,9 @@ A card type that attaches to and improves units. [See Card Types](card-types.md#
 
 ### Value Trade
 (Slang) An exchange of cards or game actions that leaves you at an advantage.
+
+### Vanilla
+(Slang) A unit with no special abilities, just basic stats.
 
 ## W
 

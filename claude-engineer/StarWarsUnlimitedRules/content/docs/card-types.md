@@ -14,6 +14,9 @@ toc = true
 top = false
 +++
 
+## Overview
+
+Star Wars Unlimited features several distinct card types, each with its own role in the game. This section provides a comprehensive overview of these card types and their characteristics.
 
 ## General
 
@@ -92,6 +95,27 @@ A "resource" is not a type of card, but a game object that a card becomes when p
 12. Text Box: Contains card abilities
 13. Credit Line: Bottom of the card, with credit and set information
 
+## Interactions Between Card Types
+
+- Units can be upgraded with upgrade cards.
+- Events can affect multiple card types.
+- Leaders can interact with other card types through their abilities.
+- Bases can be affected by various card types and abilities.
+
+## Deckbuilding Considerations
+
+- Each deck must contain exactly 1 base and 1 leader.
+- Minimum deck size is typically 50 cards (excluding base and leader).
+- No more than 3 copies of a card with the same name in a deck.
+- Unique cards (⟡) are limited to 1 copy per deck.
+
 {{% alert context="warning" %}}
 For more detailed information on each card type and their interactions, please refer to the [Glossary](/docs/glossary/) and other sections of the comprehensive rules.
 {{% /alert %}}
+
+## See Also
+
+- [Game Zones](/docs/game-zones/)
+- [Abilities and Effects](/docs/abilities-and-effects/)
+- [Keywords](/docs/keywords/)
+- [Deckbuilding Rules](/docs/setup-and-victory/#deckbuilding-rules)

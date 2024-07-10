@@ -29,18 +29,39 @@ Star Wars Unlimited is a dynamic card game that pits two or more players against
 
 The game combines strategy, timing, and the iconic themes of Star Wars to create an immersive and exciting experience for players of all skill levels.
 
+## How to Use This Guide
+
+This comprehensive rulebook is designed to be both a learning tool for new players and a reference for experienced ones. Here's how to navigate:
+
+1. **New Players**: Start with the Quick Start Guide below, then move on to the Game Concepts and Game Structure sections.
+2. **Experienced Players**: Use the Table of Contents to quickly find specific rules or clarifications.
+3. **Tournament Players**: Pay special attention to the Two-Player Constructed Formats and any Recent Changes.
+
 ## Quick Start Guide
 
 New to Star Wars Unlimited? Here's a quick guide to get you started:
 
-1. **Deck Construction**: Build a deck with exactly 1 leader, 1 base, and a minimum of 50 other cards (units, events, and upgrades).
-2. **Setup**: Place your base and leader in the base zone, shuffle your deck, draw 6 cards, and choose to keep your hand or take a mulligan.
-3. **Game Structure**: Each round consists of an action phase and a regroup phase.
-4. **Winning**: Destroy your opponent's base or reduce its HP to 0.
-5. **Key Concepts**: 
-   - Use resources to play cards and activate abilities.
-   - Attack with units to damage your opponent's base or defeat their units.
-   - Use events and abilities to gain tactical advantages.
+1. **Deck Construction**
+   - 1 leader
+   - 1 base
+   - Minimum 50 other cards (units, events, and upgrades)
+
+2. **Setup**
+   - Place base and leader in the base zone
+   - Shuffle deck
+   - Draw 6 cards (option to mulligan)
+
+3. **Game Structure**
+   - Action phase: Play cards, attack, use abilities
+   - Regroup phase: Draw cards, add resources, ready cards
+
+4. **Winning Condition**
+   - Destroy opponent's base or reduce its HP to 0
+
+5. **Key Concepts**
+   - Use resources to play cards and activate abilities
+   - Attack with units to damage opponent's base or defeat their units
+   - Use events and abilities for tactical advantages
 
 For a more detailed explanation, start with the [Game Concepts](/docs/game-concepts/) and [Game Structure](/docs/turn-structure/) sections.
 
@@ -59,16 +80,27 @@ For a more detailed explanation, start with the [Game Concepts](/docs/game-conce
 11. [Twin Suns (Multiplayer Format)](/docs/multiplayer-rules/)
 12. [Glossary](/docs/glossary/)
 
-Each section provides detailed information about specific aspects of the game. Use the links above to navigate to the relevant rules.
+## Recent Changes
 
-For quick reference of specific terms, check the [Glossary](/docs/glossary/).
+- Updated rules for the Twin Suns multiplayer format
+- Clarified interaction between certain keywords
+- Added new examples in the Abilities and Effects section
 
 {{% alert context="warning" %}}
 **Important:** In case of any discrepancies, card text takes precedence over the Comprehensive Rules.
 {{% /alert %}}
 
-For official updates, tournament information, and additional resources, visit the [Star Wars Unlimited website](https://www.starwarsunlimited.com).
+## Additional Resources
+
+- For quick reference of specific terms, check the [Glossary](/docs/glossary/).
+- Visit the [Star Wars Unlimited website](https://www.starwarsunlimited.com) for official updates, tournament information, and additional resources.
 
 {{% alert context="info" %}}
 New players are encouraged to start with the [Game Concepts](/docs/game-concepts/) and [Game Structure](/docs/turn-structure/) sections to get a solid foundation of the game mechanics.
-{{% /alert %}} 
+{{% /alert %}}
+
+## Feedback
+
+We value your input! If you have suggestions for improving these rules or notice any errors, please submit your feedback through our [official feedback form](https://www.starwarsunlimited.com/feedback).
+
+Thank you for playing Star Wars Unlimited, and may the Force be with you!

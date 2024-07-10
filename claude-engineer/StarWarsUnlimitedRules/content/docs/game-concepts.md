@@ -15,7 +15,7 @@ This section covers the fundamental concepts and rules for Star Wars Unlimited. 
 
 ## General Concepts
 
-- Star Wars Unlimited is typically a two-player card game, with optional [multiplayer rules](multiplayer-rules.md).
+- Star Wars Unlimited is typically a two-player card game, with optional [multiplayer rules](/docs/multiplayer-rules/).
 - Players need one deck each, an initiative counter, damage counters, and token cards.
 - Deck size varies by format, with specific requirements for leaders, bases, and other cards.
 - Leaders and bases are part of a deck for deckbuilding but separate during gameplay.
@@ -31,7 +31,7 @@ This section covers the fundamental concepts and rules for Star Wars Unlimited. 
 ## Players and Active Player
 
 - The active player is currently taking an action.
-- Players alternate being active during the [action phase](turn-structure.md#2-action-phase).
+- Players alternate being active during the [action phase](/docs/turn-structure/#action-phase).
 - The player with the initiative counter is considered active during non-action phases.
 
 ## Card Ownership and Control
@@ -63,15 +63,10 @@ This section covers the fundamental concepts and rules for Star Wars Unlimited. 
 There are six aspects in Star Wars Unlimited:
 
 ![Vigilance](https://swudb.com/images/Vigilance.png) Vigilance
-
 ![Command](https://swudb.com/images/Command.png) Command
-
 ![Aggression](https://swudb.com/images/Aggression.png) Aggression
-
 ![Cunning](https://swudb.com/images/Cunning.png) Cunning
-
 ![Villainy](https://swudb.com/images/Villainy.png) Villainy
-
 ![Heroism](https://swudb.com/images/Heroism.png) Heroism
 
 - Aspect penalties apply when playing cards not matching leader/base aspects.
@@ -113,15 +108,31 @@ There are six aspects in Star Wars Unlimited:
 - Open information is available to all players (e.g., faceup cards, discard piles).
 - Hidden information has restrictions (e.g., hand cards, deck order).
 
+## Arenas
+
+- Two types: Ground and Space.
+- Units are played into a specific arena.
+- Some abilities can move units between arenas.
+
+## Initiative
+
+- Determines the first player in various game phases.
+- Can change through card abilities or game effects.
+
+## Timing and Priority
+
+- Follows a specific order for resolving abilities and effects.
+- Active player generally has priority to act first.
+
 ## Glossary
 
-For a quick reference of common game terms, see the [Glossary](glossary.md).
+For a quick reference of common game terms, see the [Glossary](/docs/glossary/).
 
 ---
 
 For more details on specific topics, refer to:
-- [Card Types](card-types.md)
-- [Game Zones](game-zones.md)
-- [Abilities and Effects](abilities-and-effects.md)
-- [Turn Structure](turn-structure.md)
-- [Player Actions](player-actions.md)
+- [Card Types](/docs/card-types/)
+- [Game Zones](/docs/game-zones/)
+- [Abilities and Effects](/docs/abilities-and-effects/)
+- [Turn Structure](/docs/turn-structure/)
+- [Player Actions](/docs/player-actions/)
