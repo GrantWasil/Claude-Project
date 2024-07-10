@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>My New Hugo Site</title>
+    <link>http://localhost:1313/</link>
+    <description>Recent content on My New Hugo Site</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Wed, 10 Jul 2024 04:56:37 -0600</lastBuildDate>
+    <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Star Wars Unlimited: Comprehensive Rules</title>
+      <link>http://localhost:1313/docs/00-main-index/</link>
+      <pubDate>Fri, 21 Jun 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/docs/00-main-index/</guid>
+      <description>Welcome to the comprehensive rules for Star Wars Unlimited, a strategic card game set in the Star Wars universe. In this game, players build decks around iconic characters and locations, battling for galactic supremacy through tactical gameplay and powerful card combinations.&#xA;Version: 2.0 (Last updated: June 21, 2024)&#xA;Game Overview linkStar Wars Unlimited is a dynamic card game that pits two or more players against each other in epic battles across the Star Wars galaxy.</description>
+    </item>
+    <item>
+      <title>Card Types</title>
+      <link>http://localhost:1313/docs/card-types/</link>
+      <pubDate>Wed, 10 Jul 2024 04:40:12 -0600</pubDate>
+      <guid>http://localhost:1313/docs/card-types/</guid>
+      <description>General linkA card&amp;rsquo;s type is located in the top left corner of the card. There are 6 different types of cards: bases, events, leaders, units, upgrades, and tokens.&#xA;A &amp;ldquo;resource&amp;rdquo; is not a type of card, but a game object that a card becomes when placed in the resource zone.&#xA;Base link Represents a location in Star Wars. Has a name, trait(s), HP value, and aspect icon. Some bases also have an ability.</description>
+    </item>
+    <item>
+      <title>Abilities and Effects</title>
+      <link>http://localhost:1313/docs/abilities-and-effects/</link>
+      <pubDate>Fri, 21 Jun 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/docs/abilities-and-effects/</guid>
+      <description>Table of Contents link General Types of Abilities Effects Resolving Abilities and Effects Timing and Triggers General linkAn ability is specialized game text that indicates how a card affects the game. If a card has any printed abilities, they are found in the text box of that card.&#xA;An upgrade can give an ability to a unit if that upgrade indicates that the attached unit &amp;ldquo;gains&amp;rdquo; the ability; treat the unit as having the ability in its text box for as long as the upgrade is attached to it.</description>
+    </item>
+    <item>
+      <title>Setup and Victory</title>
+      <link>http://localhost:1313/docs/setup-and-victory/</link>
+      <pubDate>Wed, 10 Jul 2024 04:56:29 -0600</pubDate>
+      <guid>http://localhost:1313/docs/setup-and-victory/</guid>
+      <description>Star Wars Unlimited: Two-Player Constructed Formats linkThis section covers the rules for two-player constructed formats in Star Wars Unlimited, including game setup and victory conditions.&#xA;General Rules link Star Wars Unlimited can be played using several different game formats, defined by player count and deckbuilding method. A &amp;ldquo;constructed&amp;rdquo; deckbuilding format is any format in which players build decks ahead of time from cards in their collection. Unless otherwise specified, all rules in the Comprehensive Rules apply to all constructed formats.</description>
+    </item>
+    <item>
+      <title>Keywords</title>
+      <link>http://localhost:1313/docs/keywords/</link>
+      <pubDate>Wed, 10 Jul 2024 04:56:08 -0600</pubDate>
+      <guid>http://localhost:1313/docs/keywords/</guid>
+      <description>Keywords are card abilities indicated by bold red text that have specific associated rules. This guide covers all keywords in Star Wars Unlimited and their detailed mechanics.&#xA;General Rules link Keywords resolve automatically unless specified otherwise. Cards can gain keywords as constant abilities or lasting effects. Multiple instances of the same keyword generally do not stack, with some exceptions. notifications For more details on keyword interactions, see the [Glossary](glossary.md) and [Abilities and Effects](abilities-and-effects.</description>
+    </item>
+    <item>
+      <title>Game Concepts</title>
+      <link>http://localhost:1313/docs/game-concepts/</link>
+      <pubDate>Wed, 10 Jul 2024 04:55:08 -0600</pubDate>
+      <guid>http://localhost:1313/docs/game-concepts/</guid>
+      <description>Overview linkThis section covers the fundamental concepts and rules for Star Wars Unlimited. Understanding these core mechanics is essential for gameplay.&#xA;General Concepts link Star Wars Unlimited is typically a two-player card game, with optional multiplayer rules. Players need one deck each, an initiative counter, damage counters, and token cards. Deck size varies by format, with specific requirements for leaders, bases, and other cards. Leaders and bases are part of a deck for deckbuilding but separate during gameplay.</description>
+    </item>
+    <item>
+      <title>Turn Structure</title>
+      <link>http://localhost:1313/docs/turn-structure/</link>
+      <pubDate>Wed, 10 Jul 2024 04:56:37 -0600</pubDate>
+      <guid>http://localhost:1313/docs/turn-structure/</guid>
+      <description>Star Wars Unlimited: Game Structure linkThis section covers the overall game structure and turn sequence in Star Wars Unlimited.&#xA;1. General Rules link A game consists of multiple rounds, each with an action phase and regroup phase. During the action phase, players alternate taking actions. During the regroup phase, players can put a resource into play and ready exhausted cards. Each step of setup and both phases must be completed in full unless otherwise specified.</description>
+    </item>
+    <item>
+      <title>Game Zones</title>
+      <link>http://localhost:1313/docs/game-zones/</link>
+      <pubDate>Wed, 10 Jul 2024 04:55:26 -0600</pubDate>
+      <guid>http://localhost:1313/docs/game-zones/</guid>
+      <description>Overview linkGame zones are defined areas in Star Wars Unlimited with specific rules. Understanding these zones is crucial for gameplay. This section covers the seven different types of zones and their characteristics.&#xA;Types of Zones link Base Zone Ground Arena Space Arena Resource Zone Deck Hand Discard Pile The ground and space arenas are shared between players, while the other zones are separate for each player.&#xA;Base Zone link Located in the center of each player&amp;rsquo;s play area Contains the player&amp;rsquo;s base and leader at the start of the game Bases always remain in this zone Leaders move between this zone and the ground arena Ground Arena link Shared zone located next to each player&amp;rsquo;s base zone Contains ground units Units face their controller when ready Ground units can attack enemy ground units and the enemy base Space Arena link Shared zone located next to each player&amp;rsquo;s base zone Contains space units Units face their controller when ready Space units can attack enemy space units and the enemy base Resource Zone link Each player has their own resource zone Contains facedown cards called &amp;ldquo;resources&amp;rdquo; Resources can be exhausted to pay costs Players can add one card from their hand to this zone during each regroup phase Deck link Each player&amp;rsquo;s deck is its own zone Cards are facedown and out of play by default Cards leave the deck when drawn, discarded, or played directly Hand link Each player&amp;rsquo;s hand is a private zone No limit on the number of cards in hand Cards in hand are hidden information from opponents The number of cards in hand is open information Discard Pile link Each player&amp;rsquo;s discard pile is its own zone Contains faceup cards that have been played, defeated, or discarded Open information that can be viewed by any player Order of cards does not need to be maintained Additional Concepts linkIn-Play and Out-of-Play Zones link In-play zones: Base Zone, Ground Arena, Space Arena, Resource Zone Out-of-play zones: Deck, Hand, Discard Pile Play Area link Consists of cards a player controls in in-play zones Excludes upgrades controlled by a player but attached to enemy units Set Aside/No Zone link Cards set aside are out-of-play and not in any zone Token cards begin set aside and enter play through abilities For more detailed information on card interactions within and between zones, refer to the Glossary and other sections of the comprehensive rules.</description>
+    </item>
+    <item>
+      <title>Player Actions</title>
+      <link>http://localhost:1313/docs/player-actions/</link>
+      <pubDate>Wed, 10 Jul 2024 04:56:22 -0600</pubDate>
+      <guid>http://localhost:1313/docs/player-actions/</guid>
+      <description>Player Actions in Star Wars Unlimited linkThis section provides clarifications and timing charts for the following actions: Play a Card, Attack With a Unit, and Use an Action Ability.&#xA;info For each type of action, perform each step in order and as completely as possible. Play A Card linkGeneral Rules link A player follows these steps when they choose to take the Play a Card action on their turn, or when they resolve an ability that lets them play a card as a nested action.</description>
+    </item>
+    <item>
+      <title>Multiplayer Rules</title>
+      <link>http://localhost:1313/docs/multiplayer-rules/</link>
+      <pubDate>Wed, 10 Jul 2024 04:56:16 -0600</pubDate>
+      <guid>http://localhost:1313/docs/multiplayer-rules/</guid>
+      <description>Multiplayer Rules linkThis section covers the rules for playing Star Wars Unlimited with more than two players.&#xA;General Rules link Star Wars Unlimited can be played with three or more players using multiplayer formats. Multiplayer games can use decks created with either constructed or limited rules. Unless specified otherwise, all rules in the Comprehensive Rules apply to multiplayer formats. Gameplay Overview linkSetup linkSetting up a multiplayer game follows the same process as a two-player game, with one key difference:</description>
+    </item>
+    <item>
+      <title>Glossary</title>
+      <link>http://localhost:1313/docs/glossary/</link>
+      <pubDate>Wed, 10 Jul 2024 04:55:55 -0600</pubDate>
+      <guid>http://localhost:1313/docs/glossary/</guid>
+      <description>A linkAction Ability linkAn ability indicated by the word &amp;ldquo;Action&amp;rdquo; that a player can use as their action for the turn. See Abilities and Effects&#xA;Active Player linkThe player currently taking an action. See Turn Structure&#xA;Ambush linkA keyword that allows a unit to ready and attack when played. See Keywords (Related: Ready)&#xA;Arena linkA shared zone where units are played. There are two arenas: ground and space. See Game Zones (Related: Ground Arena, Space Arena)</description>
+    </item>
+  </channel>
+</rss>

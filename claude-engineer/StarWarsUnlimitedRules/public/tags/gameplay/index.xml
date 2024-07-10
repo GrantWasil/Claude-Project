@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Gameplay on My New Hugo Site</title>
+    <link>http://localhost:1313/tags/gameplay/</link>
+    <description>Recent content in Gameplay on My New Hugo Site</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Wed, 10 Jul 2024 04:40:12 -0600</lastBuildDate>
+    <atom:link href="http://localhost:1313/tags/gameplay/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Card Types</title>
+      <link>http://localhost:1313/docs/card-types/</link>
+      <pubDate>Wed, 10 Jul 2024 04:40:12 -0600</pubDate>
+      <guid>http://localhost:1313/docs/card-types/</guid>
+      <description>Star Wars Unlimited: Card Types linkTable of Contents link Star Wars Unlimited: Card Types Table of Contents 1. General 2. Base 3. Event 4. Leader 5. Unit 6. Upgrade 7. Token 8. Card Anatomy 1. General link1.1. A card&amp;rsquo;s type is located in the top left corner of the card. There are 6 different types of cards: bases, events, leaders, units, upgrades, and tokens.&#xA;1.2. A &amp;ldquo;resource&amp;rdquo; is not a type of card, but a game object that a card becomes when placed in the resource zone.</description>
+    </item>
+  </channel>
+</rss>

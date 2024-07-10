@@ -1,10 +1,12 @@
 # Star Wars Unlimited: Action Timing and Clarifications
 
 ## Table of Contents
-1. [General](#1-general)
-2. [Play A Card](#2-play-a-card)
-3. [Attack With A Unit](#3-attack-with-a-unit)
-4. [Use an Action Ability](#4-use-an-action-ability)
+- [Star Wars Unlimited: Action Timing and Clarifications](#star-wars-unlimited-action-timing-and-clarifications)
+  - [Table of Contents](#table-of-contents)
+  - [1. General](#1-general)
+  - [2. Play A Card](#2-play-a-card)
+  - [3. Attack With A Unit](#3-attack-with-a-unit)
+  - [4. Use an Action Ability](#4-use-an-action-ability)
 
 ## 1. General
 1.1. This section provides clarifications and timing charts for the following actions: Play a Card, Attack With a Unit, and Use an Action Ability.
