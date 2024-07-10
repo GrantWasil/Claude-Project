@@ -1,4 +1,4 @@
-# Star Wars Unlimited: Card Types
+X# Star Wars Unlimited: Card Types
 
 ## Table of Contents
 1. [Base](#1-base)
